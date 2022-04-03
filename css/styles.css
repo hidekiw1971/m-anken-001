@@ -176,6 +176,12 @@ select::-ms-expand {
 .main {
   text-align: center;
 }
+@media screen and (min-width: 768px) {
+  .main {
+    max-width: 74.375rem;
+    width: 100%;
+  }
+}
 .btn {
   display: inline-block;
   max-width: 335px;
@@ -221,24 +227,37 @@ select::-ms-expand {
   transition: 0.3s;
 }
 
+.overview__btn {
+  margin-bottom: 21px;
+  margin-bottom: 1.3125rem;
+}
 .overview__contents--inner {
   padding: 0 20px;
   padding: 0 1.25rem;
+  background-color: #333;
+}
+@media screen and (min-width: 768px) {
+  .overview__contents--inner {
+    padding: 7.4375rem 50% 7.4375rem 5.625rem;
+  }
 }
 .overview__img {
   display: inline-block;
   max-width: 375px;
   max-width: 23.4375rem;
   width: 100%;
-  padding-top: 69.6%;
+  aspect-ratio: 4/3;
   overflow: hidden;
   position: relative;
 }
 @media screen and (min-width: 768px) {
   .overview__img {
     max-width: 34.8125rem;
+    top: 50%;
+    -webkit-transform: translate(30%, -50%);
+            transform: translate(30%, -50%);
     width: 100%;
-    padding-top: 69.8%;
+    position: absolute;
   }
 }
 .overview__img::before {
@@ -254,8 +273,13 @@ select::-ms-expand {
   left: 0;
 }
 .overview__inner {
-  padding: 72px 0 21px 0;
-  padding: 4.5rem 0 1.3125rem 0;
+  padding: 72px 0 0 0;
+  padding: 4.5rem 0 0 0;
+}
+@media screen and (min-width: 768px) {
+  .overview__inner {
+    position: relative;
+  }
 }
 .overview__subTitle {
   font-family: "Noto Sans JP", sans-serif;
@@ -265,8 +289,14 @@ select::-ms-expand {
   letter-spacing: 2px;
   letter-spacing: 0.125rem;
   line-height: 1.45;
+  padding-bottom: 24px;
+  padding-bottom: 1.5rem;
   color: #fff;
-  color: #fff;
+}
+@media screen and (min-width: 768px) {
+  .overview__subTitle {
+    padding-bottom: 3rem;
+  }
 }
 .overview__text {
   font-family: "Noto Sans JP", sans-serif;

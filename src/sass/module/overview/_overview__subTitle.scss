@@ -7,9 +7,11 @@
   letter-spacing: rem(2);
   line-height: 1.45;
   // decoration
-  color: #fff;
+  // space
+  padding-bottom: rem(24);
   color: #fff;
   @include mq(md) {
+    padding-bottom: rem(48);
   }
   @include mq(xl) {
   }

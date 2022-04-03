@@ -1,8 +1,7 @@
 @use "global" as *;
-.overview__inner {
-  padding: rem(72) 0 0 0;
+.overview__btn {
+  margin-bottom: rem(21);
   @include mq(md) {
-    position: relative;
   }
   @include mq(xl) {
   }
