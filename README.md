@@ -4,7 +4,7 @@
 
 ## 概要
 
-- ｘｘｘ
+- codeups 模擬案件
 - https://www.notion.so/000_web-component-index-c4b399010bf342e9b4e2ed516cf9c730
 
 ## 仕様
@@ -33,8 +33,7 @@
 
 ## portfolio url:
 
-- https://c-0000.wtb.cfbx.jp/
-- https://css-md-0000.wtb.cfbx.jp/
+- https://c-0047.wtb.cfbx.jp/
 
 ## 参考にしたサイト
 

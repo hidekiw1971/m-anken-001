@@ -1,0 +1,8 @@
+@use "global" as *;
+.overview__contents--inner {
+  padding: 0 rem(20);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

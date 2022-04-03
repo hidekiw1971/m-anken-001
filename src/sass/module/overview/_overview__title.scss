@@ -1,0 +1,32 @@
+@use "global" as *;
+.overview__title {
+  // font
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: rem(20);
+  font-weight: $normal;
+  color: #fff;
+  position: relative;
+  padding: 0 0 rem(48) 0;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+.overview__title::before {
+  content: "Overview";
+  color: #f9f871;
+  font-family: "Noto Serif JP", serif;
+  font-weight: $normal;
+  font-size: rem(50);
+  opacity: 0.27;
+  display: inline-block;
+  position: absolute;
+  top: -64%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

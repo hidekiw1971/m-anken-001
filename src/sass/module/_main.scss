@@ -1,5 +1,6 @@
 @use "global" as *;
-.xxx {
+.main {
+  text-align: center;
   @include mq(md) {
   }
   @include mq(xl) {
