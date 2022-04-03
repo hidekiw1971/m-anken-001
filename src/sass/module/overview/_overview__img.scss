@@ -7,6 +7,9 @@
   overflow: hidden;
   position: relative;
   @include mq(md) {
+    max-width: rem(557);
+    width: 100%;
+    padding-top: 69.8%;
   }
   @include mq(xl) {
   }

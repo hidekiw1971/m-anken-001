@@ -1,6 +1,6 @@
 @use "global" as *;
 .overview__inner {
-  padding: rem(72) 0 0 0;
+  padding: rem(72) 0 rem(21) 0;
   @include mq(md) {
   }
   @include mq(xl) {

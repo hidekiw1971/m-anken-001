@@ -3,10 +3,12 @@
   display: inline-block;
   max-width: rem(375);
   width: 100%;
-  height: rem(723);
+  height: 100%;
   background-color: #111;
   text-align: center;
   @include mq(md) {
+    max-width: rem(896);
+    width: 100%;
   }
   @include mq(xl) {
   }
