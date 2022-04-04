@@ -1,0 +1,7 @@
+@use "global" as *;
+.overview__img--content {
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
