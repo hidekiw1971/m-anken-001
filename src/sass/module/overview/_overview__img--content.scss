@@ -1,5 +1,14 @@
 @use "global" as *;
 .overview__img--content {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url(/images/office@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 0;
+  left: 0;
   @include mq(md) {
   }
   @include mq(xl) {
