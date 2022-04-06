@@ -1,8 +1,9 @@
 @use "global" as *;
 .overview__inner {
-  padding: rem(72) 0 0 0;
+  width: 100%;
+  // height: 100%;
+  height: rem(500);
   @include mq(md) {
-    position: relative;
   }
   @include mq(xl) {
   }

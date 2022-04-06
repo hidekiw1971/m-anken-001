@@ -1,6 +1,5 @@
 @use "global" as *;
-.overview__title {
-  color: #fff;
+.overview__content--text {
   @include mq(md) {
   }
   @include mq(xl) {

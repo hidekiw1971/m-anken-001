@@ -1,6 +1,5 @@
 @use "global" as *;
-.overview__btn {
-  margin-bottom: rem(21);
+.overview__content-box--inner {
   @include mq(md) {
   }
   @include mq(xl) {

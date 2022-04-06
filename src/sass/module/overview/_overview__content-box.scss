@@ -1,0 +1,10 @@
+@use "global" as *;
+.overview__content-box {
+  @include mq(md) {
+    max-width: rem(510);
+    width: 100%;
+    height: 100%;
+  }
+  @include mq(xl) {
+  }
+}

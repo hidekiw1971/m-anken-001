@@ -1,6 +1,11 @@
 @use "global" as *;
 .overview__contents {
+  width: rem(300);
+  height: rem(250);
   @include mq(md) {
+    max-width: rem(896);
+    width: 100%;
+    height: rem(550);
   }
   @include mq(xl) {
   }
