@@ -287,10 +287,8 @@ select::-ms-expand {
   background-color: #333;
 }
 .overview__contents {
-  width: 300px;
-  width: 18.75rem;
-  height: 250px;
-  height: 15.625rem;
+  width: 100%;
+  height: 100%;
 }
 @media screen and (min-width: 768px) {
   .overview__contents {
@@ -305,7 +303,31 @@ select::-ms-expand {
   height: 31.25rem;
 }
 .overview__title {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 20px;
+  font-size: 1.25rem;
+  font-weight: 400;
   color: #fff;
+  position: relative;
+  padding-top: 48px;
+  padding-top: 3rem;
+  padding-bottom: 48px;
+  padding-bottom: 3rem;
+}
+.overview__title::before {
+  content: "Overview";
+  display: block;
+  font-family: "Noto Serif JP", serif;
+  font-size: 50px;
+  font-size: 3.125rem;
+  font-weight: 400;
+  color: #f9f871;
+  opacity: 0.27;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0%);
+          transform: translate(-50%, 0%);
 }
 .overview {
   display: inline-block;
