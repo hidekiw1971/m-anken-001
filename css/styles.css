@@ -227,19 +227,84 @@ select::-ms-expand {
   transition: 0.3s;
 }
 
+.btn__mdify {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 20px;
+  font-size: 1.25rem;
+  letter-spacing: 2px;
+  letter-spacing: 0.125rem;
+  line-height: 1.45;
+  margin-bottom: 21px;
+  margin-bottom: 1.3125rem;
+}
 .overview__content--inner {
   width: 100%;
   height: 100%;
-  background-color: #0ff;
+  background-color: #333;
+  color: #fff;
 }
 @media screen and (min-width: 768px) {
   .overview__content--inner {
     position: relative;
   }
 }
+.overview__content--subTitle {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 20px;
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  letter-spacing: 0.125rem;
+  line-height: 0.69;
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
+}
+@media screen and (min-width: 768px) {
+  .overview__content--subTitle {
+    font-size: 1.5625rem;
+    letter-spacing: 0.03125rem;
+    line-height: 1.5625;
+    text-align: left;
+  }
+}
+.overview__content--text {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 16px;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  letter-spacing: 0.125rem;
+  line-height: 1.4375;
+  text-align: left;
+  margin-bottom: 16px;
+  margin-bottom: 1rem;
+  padding: 0 20px;
+  padding: 0 1.25rem;
+}
+@media screen and (min-width: 768px) {
+  .overview__content--text {
+    letter-spacing: 0.03125rem;
+    line-height: 2.1875;
+    margin-bottom: 3.1875rem;
+    padding: 0;
+  }
+}
+@media screen and (min-width: 768px) {
+  .overview__content-box--inner {
+    padding-top: 7.4375rem;
+    padding-right: 18.5rem;
+    padding-bottom: 7.4375rem;
+    padding-left: 5.625rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .overview__content-box--inner {
+    text-align: left;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .overview__content-box {
-    max-width: 31.875rem;
     width: 100%;
     height: 100%;
   }
@@ -260,9 +325,14 @@ select::-ms-expand {
   max-width: 23.4375rem;
   width: 100%;
   position: relative;
+  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
 @media screen and (min-width: 768px) {
   .overview__content-img {
+    max-width: 34.8125rem;
+    width: 100%;
+    height: 24.3125rem;
     position: absolute;
     top: 50%;
     right: 0;
@@ -299,8 +369,7 @@ select::-ms-expand {
 }
 .overview__inner {
   width: 100%;
-  height: 500px;
-  height: 31.25rem;
+  height: 100%;
 }
 .overview__title {
   font-family: "Noto Sans JP", sans-serif;

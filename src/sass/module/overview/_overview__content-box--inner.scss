@@ -1,7 +1,14 @@
 @use "global" as *;
 .overview__content-box--inner {
   @include mq(md) {
+    // space
+    padding-top: rem(119);
+    padding-right: rem(296);
+    padding-bottom: rem(119);
+    padding-left: rem(90);
   }
   @include mq(xl) {
+    // decoration
+    text-align: left;
   }
 }

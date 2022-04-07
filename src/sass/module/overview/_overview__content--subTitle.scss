@@ -1,6 +1,20 @@
 @use "global" as *;
 .overview__content--subTitle {
+  // font
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: rem(20);
+  font-weight: $normal;
+  letter-spacing: rem(2);
+  line-height: 0.69;
+  // space
+  margin-bottom: rem(24);
   @include mq(md) {
+    // font
+    font-size: rem(25);
+    letter-spacing: rem(0.5);
+    line-height: 1.5625;
+    // decoration
+    text-align: left;
   }
   @include mq(xl) {
   }
