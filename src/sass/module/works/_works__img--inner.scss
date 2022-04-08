@@ -1,0 +1,9 @@
+@use "global" as *;
+.works__img--inner {
+  // space
+  padding-bottom: rem(24);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

@@ -1,0 +1,15 @@
+@use "global" as *;
+.works__btn--mdify {
+  // font
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: rem(20);
+  font-weight: $normal;
+  letter-spacing: rem(2);
+  line-height: 1.45;
+  // space
+  margin-bottom: rem(21);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

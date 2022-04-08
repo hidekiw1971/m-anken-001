@@ -1,8 +1,10 @@
 @use "global" as *;
 .main {
-  text-align: center;
+  max-width: rem(375);
+  width: 100%;
+  margin: 0 auto;
   @include mq(md) {
-    max-width: rem(1190);
+    max-width: rem(1280);
     width: 100%;
   }
   @include mq(xl) {
