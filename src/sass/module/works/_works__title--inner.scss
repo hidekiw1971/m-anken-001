@@ -7,6 +7,7 @@
   padding-bottom: rem(48);
   // positioning
   position: relative;
+  text-align: center;
   @include mq(md) {
   }
   @include mq(xl) {

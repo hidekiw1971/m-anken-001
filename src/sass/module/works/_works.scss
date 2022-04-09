@@ -6,12 +6,13 @@
   max-width: rem(375);
   width: 100%;
   height: 100%;
-  // decoration
-  background-color: #111;
   @include mq(md) {
     // size
     max-width: rem(1280);
     width: 100%;
+    height: rem(677);
+    // ajustment
+    text-align: right;
   }
   @include mq(xl) {
   }

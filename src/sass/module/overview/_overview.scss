@@ -1,13 +1,14 @@
 @use "global" as *;
 .overview {
-  display: block;
+  display: none;
+  // display: block;
   max-width: rem(375);
   width: 100%;
   height: 100%;
   background-color: #111;
   text-align: center;
   @include mq(md) {
-    max-width: rem(1190);
+    max-width: rem(1280);
     width: 100%;
     height: rem(677);
   }
