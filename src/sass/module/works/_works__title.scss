@@ -1,8 +1,0 @@
-@use "global" as *;
-.works__title {
-  width: 100%;
-  @include mq(md) {
-  }
-  @include mq(xl) {
-  }
-}
