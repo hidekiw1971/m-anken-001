@@ -1,0 +1,39 @@
+@use "global" as *;
+.article__text--inner {
+  // size
+  display: inline-block;
+  max-width: rem(375);
+  width: 100%;
+  // font
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: rem(16);
+  font-weight: $normal;
+  // letter-spacing: rem(1);
+  line-height: 1.4375;
+  // decoration
+  text-align: left;
+  color: #fff;
+  // space
+  padding-top: rem(0);
+  padding-right: rem(0);
+  padding-bottom: rem(28);
+  padding-left: rem(0);
+
+  @include mq(md) {
+    // size
+    // max-width: rem(572); *safariで文字が収まらない為、+4してます。
+    max-width: rem(576);
+    width: 100%;
+    height: 100%;
+    // space
+    padding-top: rem(0);
+    padding-right: rem(0);
+    padding-bottom: rem(0);
+    padding-left: rem(0);
+    // ajustment
+    display: flex;
+    align-items: center;
+  }
+  @include mq(xl) {
+  }
+}

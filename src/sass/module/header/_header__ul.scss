@@ -1,0 +1,13 @@
+@use "global" as *;
+.header__ul {
+  @include mq(md) {
+    // size
+    height: 100%;
+    // ajustment
+    display: flex;
+    // decoration
+    color: #fff;
+  }
+  @include mq(xl) {
+  }
+}

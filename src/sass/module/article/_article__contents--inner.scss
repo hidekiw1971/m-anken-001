@@ -1,0 +1,20 @@
+@use "global" as *;
+.article__contents--inner {
+  // ajustment
+  display: flex;
+  align-items: center;
+  // space
+  padding-top: rem(0);
+  padding-right: rem(0);
+  padding-bottom: rem(16);
+  padding-left: rem(0);
+  @include mq(md) {
+    // space
+    padding-top: rem(0);
+    padding-right: rem(0);
+    padding-bottom: rem(0);
+    padding-left: rem(0);
+  }
+  @include mq(xl) {
+  }
+}

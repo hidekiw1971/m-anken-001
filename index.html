@@ -19,8 +19,12 @@
   <!-- ファビコン -->
   <link rel="icon" href="/images/favicon.ico" />
   <!-- css -->
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
   <link rel="stylesheet" href="./css/styles.css">
   <!-- JavaScript -->
+  <!-- swiper -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <script defer src="./js/script.js"></script>
   <!-- web font -->
@@ -28,13 +32,95 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
-  <!-- swiper css/js -->
-  <link rel="stylesheet" href="css/swiper-bundle.min.css" />
-  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 
 </head>
 
 <body>
+
+  <div class="outside">
+
+    <section class="header">
+      <div class="header__inner">
+        <div class="header__title">
+          <div class="header__title--inner">
+            <a class="header__title--link" href="#">
+              <!-- <img src="images/CodeUps@3x.png" alt="codeups"> -->
+              <div class="header__title--img"></div>
+            </a>
+          </div>
+        </div>
+        <!-- navigation -->
+        <div class="header__nav">
+          <nav class="header__nav--inner">
+            <ul class="header__ul">
+              <li class="header__li"><a class="header__li--link-a" href="">お知らせ</a></li>
+              <li class="header__li"><a class="header__li--link-a" href="">事業内容</a></li>
+              <li class="header__li"><a class="header__li--link-a" href="">制作実績</a></li>
+              <li class="header__li"><a class="header__li--link-a" href="">企業概要</a></li>
+              <li class="header__li"><a class="header__li--link-a" href="">ブログ</a></li>
+              <li class="header__li header__li--link"><span>お問い合わせ</span></li>
+            </ul>
+          </nav>
+        </div>
+        <!-- drawer menu -->
+        <div class="drawer-menu">
+          <div class="drawer-menu__inner">
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="mv">
+      <div class="mv__inner">
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="slide-img">
+                <img src="../images/mv3x.png" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-img">
+                <img src="../images/mv2@3x.png" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide-img">
+                <img src="../images/mv3@3x.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <div class="article">
+      <div class="article__inner">
+        <div class="article__contents">
+          <div class="article__contents--inner">
+            <div class="article__date">
+              <time datetime="2020-07-20" class="article__date--inner">2020.07.20</time>
+            </div>
+            <div class="article__info">
+              <div class="article__info--inner">お知らせ</div>
+            </div>
+          </div>
+        </div>
+        <div class="article__text">
+          <div class="article__text--inner">
+            <p>記事タイトルが入ります。記事タイトルが入ります。記事タイトルが入ります。</p>
+          </div>
+        </div>
+        <button class="btn article__btn" onclick="location.href='#'"><span>すべて見る</span></button>
+      </div>
+    </div>
+
+
+  </div>
+
 </body>
 
 </html>

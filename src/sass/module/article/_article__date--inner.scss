@@ -1,0 +1,20 @@
+@use "global" as *;
+.article__date--inner {
+  // font
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: rem(16);
+  font-weight: $normal;
+  // letter-spacing: rem(1);
+  line-height: 1.4375;
+  // decoration
+  color: #fff;
+  // space
+  padding-top: rem(0);
+  padding-right: rem(32);
+  padding-bottom: rem(0);
+  padding-left: rem(0);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

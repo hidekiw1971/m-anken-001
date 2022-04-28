@@ -1,0 +1,18 @@
+@use "global" as *;
+.article__btn {
+  // size
+  max-width: rem(335);
+  width: 100%;
+  max-height: rem(50);
+  height: 100%;
+
+  @include mq(md) {
+    // size
+    max-width: rem(134);
+    width: 100%;
+    max-height: rem(30);
+    height: 100%;
+  }
+  @include mq(xl) {
+  }
+}

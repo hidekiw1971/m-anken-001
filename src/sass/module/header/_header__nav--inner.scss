@@ -1,0 +1,9 @@
+@use "global" as *;
+.header__nav--inner {
+  @include mq(md) {
+    // size
+    height: 100%;
+  }
+  @include mq(xl) {
+  }
+}
