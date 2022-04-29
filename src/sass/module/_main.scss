@@ -1,10 +1,17 @@
 @use "global" as *;
-.mv {
+.main {
   // size
   display: inline-block;
   min-width: rem(375);
   width: 100%;
-  vertical-align: bottom;
+  // decoration
+  background-color: #111;
+  // space
+  padding-top: rem(24);
+  padding-right: rem(0);
+  padding-bottom: rem(0);
+  padding-left: rem(0);
+
   @include mq(md) {
     // size
     display: block;

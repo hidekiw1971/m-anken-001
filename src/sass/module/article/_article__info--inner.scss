@@ -1,7 +1,10 @@
 @use "global" as *;
 .article__info--inner {
+  // ajustment
+  display: flex;
+  justify-content: center;
+  align-items: center;
   // size
-  display: block;
   width: rem(99);
   height: rem(31);
   // font
@@ -16,9 +19,9 @@
   overflow: hidden;
 
   // space
-  padding-top: rem(6);
+  padding-top: rem(0);
   // padding-right: rem(21);
-  padding-bottom: rem(5);
+  padding-bottom: rem(0);
   // padding-left: rem(20);
   @include mq(md) {
   }

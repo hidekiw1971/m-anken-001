@@ -1,7 +1,7 @@
 @use "global" as *;
 .btn {
   // size
-  display: block;
+  display: inline-block;
   // font
   font-family: "Noto Sans JP", sans-serif;
   font-size: rem(20);
@@ -56,10 +56,10 @@
 .btn:hover span {
   // font
   font-family: "Noto Sans JP", sans-serif;
-  font-size: rem(16);
+  font-size: rem(20);
   font-weight: $normal500;
   // letter-spacing: rem(1);
-  line-height: 1.4375;
+  line-height: 1.45;
   // ajustment
   position: relative;
   z-index: 10;
