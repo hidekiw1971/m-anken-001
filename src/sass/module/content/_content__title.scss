@@ -1,0 +1,9 @@
+@use "global" as *;
+.content__title {
+  // decoration
+  text-align: center;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

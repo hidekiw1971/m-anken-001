@@ -1,0 +1,16 @@
+@use "global" as *;
+.works__contents--inner {
+  // size
+  width: 100%;
+  height: 100%;
+  // decoration
+  background-color: #333;
+  @include mq(md) {
+    // space
+    padding: rem(120) rem(91) rem(121) rem(295);
+    // ajustment
+    position: relative; // -> works__swiper--box
+  }
+  @include mq(xl) {
+  }
+}

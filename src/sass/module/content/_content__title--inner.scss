@@ -1,0 +1,66 @@
+@use "global" as *;
+.content__title--inner {
+  // size
+  display: inline-block;
+  // font
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: rem(20);
+  font-weight: $normal;
+  letter-spacing: rem(2);
+  line-height: 1.45;
+  // decoration
+  color: #fff;
+  // space
+  padding-top: rem(49);
+  padding-bottom: rem(48);
+  // ajustment -> `content__title--inner::before`
+  position: relative;
+
+  @include mq(md) {
+    // font
+    font-size: rem(30);
+    letter-spacing: rem(2);
+    line-height: 1.1666;
+    // space
+    padding-top: rem(44);
+    padding-bottom: rem(48);
+  }
+  @include mq(xl) {
+  }
+}
+
+.content__title--inner::before {
+  content: "Content";
+  // size
+  display: inline-block;
+  width: 100%;
+  // font
+  font-family: "Noto Serif JP", serif;
+  font-size: rem(50);
+  font-weight: $normal;
+  letter-spacing: rem(2);
+  line-height: 1.44;
+  // decoration
+  color: #f9f871;
+  opacity: 0.2;
+  // ajustment -> `content__title--inner`
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translate(-67%, 0%);
+
+  @include mq(md) {
+    // font
+    font-size: rem(110);
+    font-weight: $normal;
+    letter-spacing: rem(2);
+    line-height: 1.4363;
+    // ajustment -> `content__title--inner`
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    transform: translate(-378%, 0%);
+  }
+  @include mq(xl) {
+  }
+}
