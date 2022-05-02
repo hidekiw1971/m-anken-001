@@ -1,9 +1,0 @@
-@use "global" as *;
-.swiper__slide2 {
-  max-width: rem(557);
-  width: 100%;
-  @include mq(md) {
-  }
-  @include mq(xl) {
-  }
-}

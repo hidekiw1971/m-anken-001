@@ -1,0 +1,28 @@
+@use "global" as *;
+.footer__inner {
+  // size
+  display: inline-block;
+  max-width: rem(375);
+  width: 100%;
+  // decoration
+  background-color: #111;
+  // space
+  padding-top: rem(86);
+  padding-bottom: rem(48);
+
+  @include mq(md) {
+    // size
+    display: block;
+    max-width: rem(1280);
+    width: 100%;
+    // ajustment
+    margin: 0 auto;
+    // space
+    padding-top: rem(32);
+    padding-right: rem(32);
+    padding-bottom: rem(26);
+    padding-left: rem(32);
+  }
+  @include mq(xl) {
+  }
+}

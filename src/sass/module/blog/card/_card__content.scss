@@ -1,0 +1,7 @@
+@use "global" as *;
+.card__content {
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

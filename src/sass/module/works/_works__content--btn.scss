@@ -1,9 +1,0 @@
-@use "global" as *;
-.works__content--btn {
-  // decoration
-  color: #fff;
-  @include mq(md) {
-  }
-  @include mq(xl) {
-  }
-}

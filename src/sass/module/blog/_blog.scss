@@ -1,0 +1,17 @@
+@use "global" as *;
+.blog {
+  // size
+  display: inline-block;
+  max-width: rem(375);
+  width: 100%;
+  @include mq(md) {
+    // size
+    display: block;
+    max-width: rem(1280);
+    width: 100%;
+    // ajustment
+    margin: 0 auto;
+  }
+  @include mq(xl) {
+  }
+}

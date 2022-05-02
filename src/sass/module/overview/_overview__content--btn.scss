@@ -1,0 +1,11 @@
+@use "global" as *;
+.overview__content--btn {
+  // size
+  display: inline-block;
+  // space
+
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

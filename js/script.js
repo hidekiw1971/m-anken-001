@@ -58,5 +58,5 @@ jQuery(function ($) {
     },
     speed: 2000,
   };
-  new Swiper(".swiper-container", swipeOption);
+  new Swiper(".mySwiper1", swipeOption);
 });

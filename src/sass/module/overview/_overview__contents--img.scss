@@ -1,0 +1,40 @@
+@use "global" as *;
+.overview__contents--img {
+  // size
+  display: block;
+  max-width: rem(375);
+  width: 100%;
+  // decoration
+  background-color: #f00;
+  // ajustment
+  position: relative;
+  top: 0;
+  left: 0;
+
+  @include mq(md) {
+    // size
+    max-width: rem(557);
+    width: 100%;
+    // ajustment
+    margin-left: auto;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%);
+  }
+  @include mq(xl) {
+  }
+}
+
+.overview__contents--img::before {
+  content: "";
+  // size
+  display: block;
+  width: 100%;
+  // aspect-ratio: 4/3;
+  padding-top: 75%;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

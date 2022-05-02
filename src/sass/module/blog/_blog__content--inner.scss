@@ -1,0 +1,11 @@
+@use "global" as *;
+.blog__content--inner {
+  @include mq(md) {
+    // size
+    display: flex;
+    // space
+    padding: rem(0) rem(90);
+  }
+  @include mq(xl) {
+  }
+}

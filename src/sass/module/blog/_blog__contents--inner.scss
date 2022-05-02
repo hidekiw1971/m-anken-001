@@ -1,0 +1,9 @@
+@use "global" as *;
+.blog__contents--inner {
+  // ajustment
+  text-align: center;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

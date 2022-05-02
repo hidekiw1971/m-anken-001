@@ -1,0 +1,9 @@
+@use "global" as *;
+.card__inner {
+  // space
+  padding-bottom: rem(24);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

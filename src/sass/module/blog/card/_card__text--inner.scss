@@ -1,0 +1,15 @@
+@use "global" as *;
+.card__text--inner {
+  // font
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: rem(14);
+  font-weight: $normal;
+  letter-spacing: rem(1);
+  line-height: 1.8571428;
+  // space
+  padding-bottom: rem(3);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

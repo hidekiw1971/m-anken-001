@@ -1,0 +1,32 @@
+@use "global" as *;
+.overview__content--text {
+  // size
+  display: inline-block;
+  width: 100%;
+  // font
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: rem(16);
+  font-weight: $normal;
+  letter-spacing: rem(2);
+  line-height: 1.4375;
+  // decoration
+  color: #fff;
+  text-align: left;
+  // space
+  padding-right: rem(20);
+  padding-left: rem(20);
+  padding-bottom: rem(16);
+
+  @include mq(md) {
+    // font
+    font-size: rem(16);
+    letter-spacing: rem(0.5);
+    line-height: 2.1875;
+    // space
+    padding-left: rem(0);
+    padding-right: rem(0);
+    padding-bottom: rem(48);
+  }
+  @include mq(xl) {
+  }
+}
