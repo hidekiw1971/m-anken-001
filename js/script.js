@@ -59,4 +59,11 @@ jQuery(function ($) {
     speed: 2000,
   };
   new Swiper(".mySwiper1", swipeOption);
+
+  // .swiper.works__mySwiper
+  const swiper = new Swiper(".swiper.works__mySwiper", {
+    autoplay: {
+      delay: 5000,
+    },
+  });
 });

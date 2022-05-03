@@ -1,0 +1,7 @@
+@use "global" as *;
+.contact {
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

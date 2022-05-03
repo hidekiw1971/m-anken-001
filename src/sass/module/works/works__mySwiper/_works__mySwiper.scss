@@ -1,0 +1,13 @@
+@use "global" as *;
+.swiper.works__mySwiper {
+  width: rem(375);
+  height: rem(261);
+  // decoration
+  overflow: hidden;
+  @include mq(md) {
+    width: rem(557);
+    height: rem(389);
+  }
+  @include mq(xl) {
+  }
+}

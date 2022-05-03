@@ -1,0 +1,30 @@
+@use "global" as *;
+.contact__inner {
+  // size
+  display: inline-block;
+  max-width: rem(375);
+  width: 100%;
+  // decoration
+  background-color: #3d3d3d;
+  // space
+  padding-top: rem(67);
+  padding-right: rem(19);
+  padding-bottom: rem(64);
+  padding-left: rem(19);
+
+  @include mq(md) {
+    // size
+    display: block;
+    max-width: rem(1280);
+    width: 100%;
+    // ajustment
+    margin: 0 auto;
+    // space
+    padding-top: rem(148);
+    padding-right: rem(0);
+    padding-bottom: rem(149);
+    padding-left: rem(0);
+  }
+  @include mq(xl) {
+  }
+}

@@ -2,7 +2,7 @@
 .footer__inner {
   // size
   display: inline-block;
-  max-width: rem(375);
+  min-width: rem(375);
   width: 100%;
   // decoration
   background-color: #111;

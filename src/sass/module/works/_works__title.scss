@@ -1,0 +1,12 @@
+@use "global" as *;
+.works__title {
+  // size
+  display: inline-block;
+  width: 100%;
+  // ajustment
+  text-align: center;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

@@ -1,0 +1,20 @@
+@use "global" as *;
+.contact__text--inner {
+  // font
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: rem(16);
+  font-weight: $normal;
+  letter-spacing: rem(2);
+  line-height: 1.4375;
+  // decoration
+  color: #fff;
+  // space
+  padding-bottom: rem(40);
+
+  @include mq(md) {
+    // space
+    padding-bottom: rem(61);
+  }
+  @include mq(xl) {
+  }
+}
