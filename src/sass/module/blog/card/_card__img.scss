@@ -1,0 +1,25 @@
+@use "global" as *;
+.card__img {
+  // size
+  display: block;
+  width: 100%;
+  // ajustment -> `.card__img--inner`
+  position: relative;
+
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+.card__img::before {
+  content: "";
+  // size
+  display: block;
+  width: 100%;
+  padding-top: 66.56716%;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

@@ -1,0 +1,17 @@
+@use "global" as *;
+.header__title {
+  // size
+  width: rem(70);
+  height: rem(39);
+  display: inline-block;
+  // ajustment
+  position: relative;
+  z-index: 5;
+  @include mq(md) {
+    // size
+    width: rem(94);
+    height: 100%;
+  }
+  @include mq(xl) {
+  }
+}

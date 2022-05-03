@@ -1,0 +1,25 @@
+@use "global" as *;
+.main {
+  // size
+  display: inline-block;
+  min-width: rem(375);
+  width: 100%;
+  // decoration
+  background-color: #111;
+  // space
+  padding-top: rem(24);
+  padding-right: rem(0);
+  padding-bottom: rem(0);
+  padding-left: rem(0);
+
+  @include mq(md) {
+    // size
+    display: block;
+    max-width: rem(1280);
+    width: 100%;
+    // ajustment
+    margin: 0 auto;
+  }
+  @include mq(xl) {
+  }
+}

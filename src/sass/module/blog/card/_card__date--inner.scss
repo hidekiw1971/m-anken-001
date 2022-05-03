@@ -1,0 +1,17 @@
+@use "global" as *;
+.card__date--inner {
+  // size
+  display: inline-block;
+  // font
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: rem(14);
+  font-weight: $normal;
+  letter-spacing: rem(1);
+  line-height: 1.8571428;
+  // decoration
+  color: #333;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

@@ -1,0 +1,29 @@
+@use "global" as *;
+.header__title--inner {
+  // size
+  display: block;
+  width: 100%;
+  height: 100%;
+  // ajustment
+  position: relative;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+.header__title--inner::after {
+  content: "";
+  // size
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-top: 55.7143%;
+
+  @include mq(md) {
+    // size
+    padding-top: 26.596%;
+  }
+  @include mq(xl) {
+  }
+}

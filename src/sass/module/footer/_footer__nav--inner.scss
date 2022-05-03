@@ -1,0 +1,9 @@
+@use "global" as *;
+.footer__nav--inner {
+  @include mq(md) {
+    // size
+    display: inline-block;
+  }
+  @include mq(xl) {
+  }
+}

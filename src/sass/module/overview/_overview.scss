@@ -1,0 +1,14 @@
+@use "global" as *;
+.overview {
+  // size
+  max-width: rem(375);
+  width: 100%;
+  // ajustment
+  margin: 0 auto;
+  @include mq(md) {
+    // size
+    max-width: rem(1280);
+  }
+  @include mq(xl) {
+  }
+}

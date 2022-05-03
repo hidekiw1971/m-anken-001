@@ -1,0 +1,7 @@
+@use "global" as *;
+.mv__inner {
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

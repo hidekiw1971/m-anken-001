@@ -1,0 +1,9 @@
+@use "global" as *;
+.footer__ul {
+  @include mq(md) {
+    // ajustment
+    display: flex;
+  }
+  @include mq(xl) {
+  }
+}

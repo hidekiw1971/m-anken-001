@@ -1,0 +1,19 @@
+@use "global" as *;
+.card__contents--inner {
+  // size
+  display: inline-block;
+  width: 100%;
+  // decoration
+  text-align: left;
+  background-color: #fff;
+  // overflow: hidden; これを入れるとboxの下に隙間ができた。
+  // space
+  padding-top: rem(4);
+  padding-bottom: rem(16);
+  padding-right: rem(23);
+  padding-left: rem(23);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

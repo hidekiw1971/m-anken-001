@@ -1,0 +1,19 @@
+@use "global" as *;
+.content__content--img4 {
+  // size
+  display: block;
+  width: 100%;
+  height: 100%;
+  // decoration
+  background-image: url(/images/理念3背景画像@3x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  // ajustment
+  position: absolute;
+  top: 0;
+  left: 0;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

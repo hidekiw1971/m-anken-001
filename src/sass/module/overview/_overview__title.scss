@@ -1,0 +1,65 @@
+@use "global" as *;
+.overview__title {
+  // size
+  max-width: rem(375);
+  width: 100%;
+  display: inline-block;
+  // font
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: rem(20);
+  font-weight: $normal;
+  letter-spacing: rem(2);
+  line-height: 1.45;
+  // decoration
+  color: #fff;
+  text-align: center;
+  // ajustmente
+  position: relative;
+  // space
+  padding-bottom: 48px;
+
+  @include mq(md) {
+    // size
+    display: inline-block;
+    max-width: rem(1280);
+    width: 100%;
+    // font
+    font-size: rem(30);
+    font-weight: $normal;
+    letter-spacing: rem(0.5);
+    line-height: 1;
+    // decoration
+    text-align: center;
+  }
+  @include mq(xl) {
+  }
+}
+
+.overview__title::before {
+  content: "Overview";
+  // size
+  display: block;
+  // decoration
+  color: #f9f871;
+  opacity: 0.27;
+  // font
+  font-family: "Noto Serif JP", serif;
+  font-size: rem(50);
+  font-weight: $normal;
+  letter-spacing: rem(2);
+  line-height: 1.44;
+  // ajustment
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -66%);
+  @include mq(md) {
+    // font
+    font-size: rem(110);
+    letter-spacing: rem(2);
+    line-height: 1.4363636;
+    // ajustment
+    transform: translate(-107%, -32%);
+  }
+  @include mq(xl) {
+  }
+}

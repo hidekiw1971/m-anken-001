@@ -1,0 +1,136 @@
+@use "global" as *;
+.header__li {
+  // font
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: rem(16);
+  font-weight: $normal;
+  font-style: normal;
+  letter-spacing: rem(2);
+  line-height: 2.1875;
+  // decoration
+  color: #fff;
+
+  @include mq(md) {
+    // ajustment
+    display: flex;
+    align-items: center;
+    // space
+    margin-right: rem(32);
+    // ajustment -> `.header__li--link-a::before`
+    position: relative;
+  }
+  @include mq(xl) {
+  }
+}
+
+.header__li:last-child {
+  @include mq(md) {
+    // space
+    margin-right: rem(0);
+  }
+  @include mq(xl) {
+  }
+}
+
+.header__li--link-a:hover::before {
+  @include mq(md) {
+    // decoration
+    opacity: 1;
+  }
+  @include mq(xl) {
+  }
+}
+
+.header__li--link-a::before {
+  @include mq(md) {
+    content: "";
+    // size
+    display: block;
+    width: 100%;
+    height: 2px;
+    // decoration
+    background-color: #ffea2e;
+    opacity: 0;
+    // ajustment -> `.header__li`
+    position: absolute;
+    bottom: rem(10);
+    left: 0;
+  }
+  @include mq(xl) {
+  }
+}
+
+// お問い合わせの部分
+.header__li--link {
+  @include mq(md) {
+    // size
+    height: 100%;
+    // decoration
+    background-color: #fff;
+    color: #333;
+    overflow: hidden;
+    // space
+    padding-top: rem(0);
+    padding-right: rem(32);
+    padding-bottom: rem(0);
+    padding-left: rem(32);
+    // ajustment -> `.header__li--link::after`
+    position: relative;
+  }
+  @include mq(xl) {
+  }
+}
+
+.header__li--link::before {
+  content: "";
+  @include mq(md) {
+    // size
+    display: block;
+    width: 100%;
+    height: 100%;
+    // decoration
+    background-color: #333;
+    transition: 0.1s;
+    // ajustment -> `.header__li--link`
+    position: absolute;
+    top: 0;
+    left: -100%;
+    z-index: 5;
+  }
+  @include mq(xl) {
+  }
+}
+
+.header__li--link:hover::before {
+  @include mq(md) {
+    // ajustment
+    left: 0;
+    // decoration
+    transition: 0.1s;
+  }
+  @include mq(xl) {
+  }
+}
+
+.header__li--link:hover span {
+  @include mq(md) {
+    // ajustment
+    position: relative;
+    z-index: 10;
+    // decoration
+    color: #fff;
+    transition: 0.1s;
+  }
+  @include mq(xl) {
+  }
+}
+
+.header__li.open {
+  // font
+  // space
+  margin-bottom: rem(32);
+}
+
+.header__li.header__li--link {
+  margin-bottom: rem(0);
+}

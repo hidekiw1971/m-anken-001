@@ -1,0 +1,9 @@
+@use "global" as *;
+.content__inner {
+  // decoration
+  background-color: #111;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

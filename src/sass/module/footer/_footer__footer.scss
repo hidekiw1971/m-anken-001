@@ -1,0 +1,15 @@
+@use "global" as *;
+.footer__footer {
+  // font
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: rem(11);
+  font-weight: $normal;
+  letter-spacing: rem(1.2);
+  line-height: 1.4545;
+  // decoration
+  color: #fff;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

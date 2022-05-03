@@ -1,0 +1,47 @@
+@use "global" as *;
+.info-mv__img {
+  // size
+  width: 100%;
+  height: 100%;
+  // decoration
+  background-image: url(/images/info/sp-under-mv@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  // ajustment
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  @include mq(md) {
+    // decoration
+    background-image: url(/images/info/under-mv@2x.png);
+  }
+  @include mq(xl) {
+  }
+}
+
+.info-mv__img::before {
+  content: "お知らせ";
+  // size
+  display: block;
+  width: 100%;
+  // font
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: rem(30);
+  font-style: normal;
+  font-weight: $bold;
+  letter-spacing: rem(2);
+  line-height: 1;
+  // decoration
+  color: #fff;
+  @include mq(md) {
+    // font
+    font-size: rem(35);
+    letter-spacing: rem(2);
+  }
+  @include mq(xl) {
+  }
+}

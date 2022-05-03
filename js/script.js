@@ -28,12 +28,12 @@ jQuery(function ($) {
   });
 
   //ドロワーメニュー
-  $("#MenuButton").click(function () {
-    // $(".l-drawer-menu").toggleClass("is-show");
-    // $(".p-drawer-menu").toggleClass("is-show");
-    $(".js-drawer-open").toggleClass("open");
-    $(".drawer-menu").toggleClass("open");
-    $("html").toggleClass("is-fixed");
+  $(".drawer-menu__inner").click(function () {
+    $(".drawer-menu__inner").toggleClass("open");
+    $(".header__nav").toggleClass("open");
+    $(".header__inner").toggleClass("open");
+    $(".header__li").toggleClass("open");
+    // $("html").toggleClass("is-fixed");
   });
 
   // スムーススクロール (絶対パスのリンク先が現在のページであった場合でも作動)
@@ -48,14 +48,22 @@ jQuery(function ($) {
     return false;
   });
 
-  // works-swiper
-  const swiper = new Swiper(".swiper", {
+  // swiper
+  let swipeOption = {
+    loop: true,
+    effect: "fade",
     autoplay: {
-      delay: 1000,
+      delay: 4000,
+      disableOnInteraction: false,
     },
-    pagination: {
-      el: ".swiper-pagination",
-      type: "bullets",
+    speed: 2000,
+  };
+  new Swiper(".mySwiper1", swipeOption);
+
+  // .swiper.works__mySwiper
+  const swiper = new Swiper(".swiper.works__mySwiper", {
+    autoplay: {
+      delay: 5000,
     },
   });
 });

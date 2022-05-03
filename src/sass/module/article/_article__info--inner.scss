@@ -1,0 +1,30 @@
+@use "global" as *;
+.article__info--inner {
+  // ajustment
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // size
+  width: rem(99);
+  height: rem(31);
+  // font
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: rem(14);
+  font-weight: $normal;
+  // letter-spacing: rem(1);
+  line-height: 1.4285;
+  // decoration
+  color: #fff;
+  border: 1px solid #fff;
+  overflow: hidden;
+
+  // space
+  padding-top: rem(0);
+  // padding-right: rem(21);
+  padding-bottom: rem(0);
+  // padding-left: rem(20);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

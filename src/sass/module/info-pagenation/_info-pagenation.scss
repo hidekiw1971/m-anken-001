@@ -1,0 +1,9 @@
+@use "global" as *;
+.info-pagenation {
+  // ajustment
+  text-align: center;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

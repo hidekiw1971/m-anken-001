@@ -1,0 +1,9 @@
+@use "global" as *;
+.footer__contents {
+  // space
+  padding-bottom: rem(32);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

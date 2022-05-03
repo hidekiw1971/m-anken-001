@@ -1,0 +1,9 @@
+@use "global" as *;
+.overview__content {
+  @include mq(md) {
+    // space
+    padding: rem(119) rem(297) rem(119) rem(89);
+  }
+  @include mq(xl) {
+  }
+}

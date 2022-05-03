@@ -1,0 +1,57 @@
+@use "global" as *;
+.works__title--inner {
+  // size
+  display: inline-block;
+  // font
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: rem(20);
+  font-weight: $normal;
+  letter-spacing: rem(2);
+  line-height: 1.448;
+  // decoration
+  color: #fff;
+  @include mq(md) {
+    // font
+    font-size: rem(30);
+    letter-spacing: rem(0.5);
+    // line-height: 0.266;
+    line-height: 1;
+    // ajustment -> .works__title::before
+    position: relative;
+    // space
+    padding-top: rem(63);
+    padding-bottom: rem(48);
+  }
+  @include mq(xl) {
+  }
+}
+
+.works__title--inner::before {
+  content: "Works";
+  // size
+  display: block;
+  // font
+  font-family: "Noto Serif JP", serif;
+  font-size: rem(50);
+  font-weight: $normal;
+  letter-spacing: rem(2);
+  line-height: 1.44;
+  // decoration
+  color: #f9f871;
+  opacity: 0.2;
+  @include mq(md) {
+    // size
+    // font
+    font-size: rem(110);
+    font-weight: $normal;
+    letter-spacing: rem(2);
+    line-height: 1.4363;
+    // ajustmente -> .works__title
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, -36%);
+  }
+  @include mq(xl) {
+  }
+}

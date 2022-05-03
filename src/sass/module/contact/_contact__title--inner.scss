@@ -1,0 +1,61 @@
+@use "global" as *;
+.contact__title--inner {
+  // size
+  width: 100%;
+  height: 100%;
+  // font
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: rem(20);
+  font-weight: $normal;
+  letter-spacing: rem(2);
+  line-height: 1.45;
+  // decoration
+  color: #fff;
+  // space
+  padding-bottom: rem(20);
+  // ajustment
+  position: relative;
+
+  @include mq(md) {
+    // font
+    font-size: rem(30);
+    letter-spacing: rem(2);
+    line-height: 1.1666;
+    // space
+    padding-bottom: rem(24);
+  }
+  @include mq(xl) {
+  }
+}
+
+.contact__title--inner::before {
+  content: "Contact";
+  // size
+  display: block;
+  // font
+  font-family: "Noto Serif JP", serif;
+  font-size: rem(50);
+  font-weight: $normal;
+  letter-spacing: rem(2);
+  line-height: 1.44;
+  // decoration
+  color: #f9f871;
+  opacity: 0.27;
+  // ajustment
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -65%);
+  @include mq(md) {
+    // font
+    font-size: rem(110);
+    letter-spacing: rem(2);
+    line-height: 1.4363;
+    // ajustment
+    top: 0;
+    left: 0;
+    transform: translate(25%, -61%);
+  }
+  @include mq(xl) {
+  }
+}

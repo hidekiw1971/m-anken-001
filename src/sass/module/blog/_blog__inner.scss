@@ -1,0 +1,15 @@
+@use "global" as *;
+.blog__inner {
+  // size
+  width: 100%;
+  height: 100%;
+  // decoration
+  background-color: #111;
+  // space
+  padding-top: rem(51);
+
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

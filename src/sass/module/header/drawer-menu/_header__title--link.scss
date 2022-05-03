@@ -1,0 +1,7 @@
+@use "global" as *;
+.header__title--link {
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

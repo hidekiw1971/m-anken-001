@@ -1,0 +1,9 @@
+@use "global" as *;
+.article__info {
+  @include mq(md) {
+    // space
+    padding-right: rem(61);
+  }
+  @include mq(xl) {
+  }
+}

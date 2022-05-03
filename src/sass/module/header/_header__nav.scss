@@ -1,0 +1,32 @@
+@use "global" as *;
+.header__nav {
+  // decoration
+  display: none;
+  @include mq(md) {
+    // size
+    display: block;
+    height: 100%;
+  }
+  @include mq(xl) {
+  }
+}
+
+.header__nav.open {
+  // size
+  display: flex;
+  min-width: 100%;
+  height: 100vh;
+  // ajustment
+  position: absolute; // from `.header__inner`
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  // decoration
+  background-color: #111;
+
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

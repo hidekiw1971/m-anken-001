@@ -1,0 +1,32 @@
+@use "global" as *;
+
+.swiper {
+  width: rem(375);
+  height: rem(770);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+@keyframes zoomUp {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.15);
+  }
+}
+
+.swiper-slide-active .slide-img,
+.swiper-slide-duplicate-active .slide-img,
+.swiper-slide-prev .slide-img {
+  animation: zoomUp 10s linear 0s 1 normal both;
+}
+
+//imgタグだと下に隙間ができるのでblockに。
+.slide-img img {
+  display: block;
+  height: rem(770);
+  object-fit: cover;
+}

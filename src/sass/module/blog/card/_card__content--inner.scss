@@ -1,0 +1,10 @@
+@use "global" as *;
+.card__content--inner {
+  // ajustment
+  display: flex;
+  justify-content: space-between;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
