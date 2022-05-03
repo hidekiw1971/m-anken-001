@@ -2,7 +2,7 @@
 .contact__inner {
   // size
   display: inline-block;
-  max-width: rem(375);
+  min-width: rem(375);
   width: 100%;
   // decoration
   background-color: #3d3d3d;
@@ -11,14 +11,16 @@
   padding-right: rem(19);
   padding-bottom: rem(64);
   padding-left: rem(19);
+  // ajustment
+  text-align: center;
 
   @include mq(md) {
     // size
-    display: block;
+    display: inline-block;
     max-width: rem(1280);
     width: 100%;
     // ajustment
-    margin: 0 auto;
+    // margin: 0 auto;
     // space
     padding-top: rem(148);
     padding-right: rem(0);

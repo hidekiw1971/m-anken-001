@@ -1,5 +1,7 @@
 @use "global" as *;
 .footer {
+  // ajustment
+  text-align: center;
   @include mq(md) {
   }
   @include mq(xl) {
