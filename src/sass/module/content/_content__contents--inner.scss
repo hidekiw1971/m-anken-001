@@ -3,6 +3,7 @@
   // size
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   @include mq(md) {
   }
   @include mq(xl) {

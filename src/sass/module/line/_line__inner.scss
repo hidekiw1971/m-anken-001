@@ -1,0 +1,19 @@
+@use "global" as *;
+.line__inner {
+  // size
+  display: inline-block;
+  min-width: rem(375);
+  width: 100%;
+  height: rem(2113.36);
+  // background-color: #333;
+  @include mq(md) {
+    // size
+    display: inline-block;
+    max-width: rem(1211.98);
+    width: 100%;
+    height: rem(2548);
+    // background-color: #f00;
+  }
+  @include mq(xl) {
+  }
+}

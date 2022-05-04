@@ -1,0 +1,11 @@
+@use "global" as *;
+.line {
+  // ajustment
+  position: absolute;
+  top: rem(100);
+  left: 0;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

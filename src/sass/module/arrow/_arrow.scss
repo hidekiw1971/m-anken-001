@@ -1,0 +1,39 @@
+@use "global" as *;
+// sp size  375px -> sp
+// tb size  768px -> tb
+// pc size 1440px -> xl
+
+.arrow {
+  // expression
+  display: inline-block;
+  // size setting
+  width: rem(45);
+  height: rem(45);
+  // position
+  position: relative;
+  // decoration setting
+  background-color: #fff;
+  color: #333;
+  // ajustment
+  position: absolute;
+  bottom: rem(41);
+  right: rem(21);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+.arrow::after {
+  content: "";
+  display: inline-block;
+  width: rem(20); /* 矢印の大きさの指定 */
+  height: rem(20); /* 矢印の大きさの指定 */
+  border-top: 2px solid #333; /* 矢印の太さの指定 */
+  border-left: 2px solid #333; /* 矢印の太さの指定 */
+
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

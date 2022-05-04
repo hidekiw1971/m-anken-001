@@ -9,6 +9,8 @@
   // space
   padding-top: rem(86);
   padding-bottom: rem(48);
+  // ajustment
+  position: relative;
 
   @include mq(md) {
     // size

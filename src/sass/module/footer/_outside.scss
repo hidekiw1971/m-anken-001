@@ -1,8 +1,0 @@
-@use "global" as *;
-.outside {
-  text-align: center;
-  @include mq(md) {
-  }
-  @include mq(xl) {
-  }
-}
