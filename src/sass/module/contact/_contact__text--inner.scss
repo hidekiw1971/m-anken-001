@@ -8,8 +8,9 @@
   line-height: 1.4375;
   // decoration
   color: #fff;
+  text-align: left;
   // space
-  padding-bottom: rem(40);
+  padding-bottom: rem(48);
 
   @include mq(md) {
     // space

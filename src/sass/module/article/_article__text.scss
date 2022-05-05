@@ -6,7 +6,7 @@
     overflow: hidden;
     // space
     // padding-right: rem(48); *safariで文字が収まらない為、-4してます。
-    padding-right: rem(44);
+    padding-right: rem(48);
   }
   @include mq(xl) {
   }

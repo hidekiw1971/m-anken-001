@@ -6,6 +6,8 @@
   // decoration
   background-color: #333;
   @include mq(md) {
+    // size
+    height: rem(550);
     // space
     padding: rem(120) rem(91) rem(121) rem(295);
     // ajustment

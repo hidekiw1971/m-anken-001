@@ -4,6 +4,9 @@
   width: 100%;
   // decoration
   background-color: #111;
+  // space
+  padding-bottom: rem(72);
+
   @include mq(md) {
     // size
     width: 100%;

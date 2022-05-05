@@ -11,3 +11,17 @@
   @include mq(xl) {
   }
 }
+
+.swiper-pagination-bullet {
+  background-color: #f9f871;
+  margin-right: rem(11);
+}
+
+.swiper-pagination-bullet:last-child {
+  margin-right: rem(0);
+}
+
+.mySwiper__pagination {
+  display: block;
+  width: 100%;
+}

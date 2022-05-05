@@ -20,7 +20,8 @@
     position: relative;
     // space
     padding-top: rem(63);
-    padding-bottom: rem(48);
+    // padding-bottom: rem(48);
+    padding-bottom: rem(41.6);
   }
   @include mq(xl) {
   }
@@ -39,6 +40,10 @@
   // decoration
   color: #f9f871;
   opacity: 0.2;
+  // ajustment
+  position: relative;
+  top: rem(23);
+
   @include mq(md) {
     // size
     // font
@@ -50,7 +55,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(50%, -36%);
+    transform: translate(59%, -36%);
   }
   @include mq(xl) {
   }

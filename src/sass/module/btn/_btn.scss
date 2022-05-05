@@ -18,6 +18,8 @@
   // ajustment -> `.btn::after`
   position: relative;
   @include mq(md) {
+    // font
+    font-size: rem(16);
   }
   @include mq(xl) {
   }

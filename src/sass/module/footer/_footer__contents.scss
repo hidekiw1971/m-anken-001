@@ -1,7 +1,7 @@
 @use "global" as *;
 .footer__contents {
   // space
-  padding-bottom: rem(32);
+  padding-bottom: rem(27);
   @include mq(md) {
   }
   @include mq(xl) {

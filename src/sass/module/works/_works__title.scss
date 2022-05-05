@@ -5,7 +5,11 @@
   width: 100%;
   // ajustment
   text-align: center;
+  // space
+  padding-bottom: rem(47);
   @include mq(md) {
+    // space
+    padding-bottom: rem(0);
   }
   @include mq(xl) {
   }

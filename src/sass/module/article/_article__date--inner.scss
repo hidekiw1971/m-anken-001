@@ -10,10 +10,12 @@
   color: #fff;
   // space
   padding-top: rem(0);
-  padding-right: rem(32);
+  padding-right: rem(48);
   padding-bottom: rem(0);
   padding-left: rem(0);
   @include mq(md) {
+    // spacd
+    padding-right: rem(48);
   }
   @include mq(xl) {
   }

@@ -25,6 +25,8 @@
   width: 100%;
   padding-top: 89.3617%;
   @include mq(md) {
+    // size
+    padding-top: 100%;
   }
   @include mq(xl) {
   }

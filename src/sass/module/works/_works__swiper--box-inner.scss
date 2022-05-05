@@ -1,7 +1,7 @@
 @use "global" as *;
 .works__swiper--box-inner {
   // size
-  margin-bottom: rem(35);
+  margin-bottom: rem(25);
   // ajustment
   position: relative;
   @include mq(md) {
