@@ -2315,6 +2315,12 @@ select::-ms-expand {
   margin-bottom: 1.5625rem;
   position: relative;
 }
+@media screen and (min-width: 768px) {
+  .works__swiper--box-inner {
+    width: 34.8125rem;
+    height: 24.3125rem;
+  }
+}
 .works__swiper--box {
   width: 100%;
 }

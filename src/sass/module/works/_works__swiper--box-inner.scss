@@ -5,6 +5,9 @@
   // ajustment
   position: relative;
   @include mq(md) {
+    // size
+    width: rem(557);
+    height: rem(389);
   }
   @include mq(xl) {
   }
