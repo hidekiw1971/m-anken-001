@@ -30,6 +30,8 @@
     line-height: 1;
     // decoration
     text-align: center;
+    // space
+    padding-bottom: rem(40);
   }
   @include mq(xl) {
   }
@@ -58,7 +60,7 @@
     letter-spacing: rem(2);
     line-height: 1.4363636;
     // ajustment
-    transform: translate(-107%, -32%);
+    transform: translate(-106.5%, -36%);
   }
   @include mq(xl) {
   }

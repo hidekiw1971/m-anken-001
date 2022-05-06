@@ -7,6 +7,8 @@
   // space
   padding-top: rem(48);
   @include mq(md) {
+    // space
+    padding-top: rem(47);
   }
   @include mq(xl) {
   }

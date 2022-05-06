@@ -20,7 +20,7 @@
     position: absolute;
     top: 50%;
     right: 0;
-    transform: translate(50%, -50%);
+    transform: translate(52.6%, -50%);
   }
   @include mq(xl) {
   }
@@ -33,6 +33,7 @@
   width: 100%;
   // aspect-ratio: 4/3;
   padding-top: 69.5%;
+
   @include mq(md) {
   }
   @include mq(xl) {
