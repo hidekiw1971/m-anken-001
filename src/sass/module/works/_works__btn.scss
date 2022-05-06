@@ -28,6 +28,9 @@
     font-weight: 500;
     letter-spacing: rem(2);
     line-height: 3.375;
+    // size
+    width: rem(360);
+    height: rem(60);
   }
   @include mq(xl) {
   }

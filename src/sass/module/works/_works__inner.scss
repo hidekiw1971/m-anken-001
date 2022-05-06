@@ -10,6 +10,8 @@
   @include mq(md) {
     // size
     width: 100%;
+    // space
+    padding-bottom: rem(159);
   }
   @include mq(xl) {
   }

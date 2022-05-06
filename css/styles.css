@@ -2197,6 +2197,8 @@ select::-ms-expand {
     font-weight: 500;
     letter-spacing: 0.125rem;
     line-height: 3.375;
+    width: 22.5rem;
+    height: 3.75rem;
   }
 }
 .works__btn::before {
@@ -2276,6 +2278,7 @@ select::-ms-expand {
     letter-spacing: 0.03125rem;
     line-height: 0.64;
     padding-bottom: 3rem;
+    text-align: left;
   }
 }
 .works__contents--inner {
@@ -2286,7 +2289,7 @@ select::-ms-expand {
 @media screen and (min-width: 768px) {
   .works__contents--inner {
     height: 34.375rem;
-    padding: 7.5rem 5.6875rem 7.5625rem 18.4375rem;
+    padding: 7.5rem 4.6875rem 7.5625rem 17.1375rem;
     position: relative;
   }
 }
@@ -2308,6 +2311,7 @@ select::-ms-expand {
 @media screen and (min-width: 768px) {
   .works__inner {
     width: 100%;
+    padding-bottom: 9.9375rem;
   }
 }
 .works__swiper--box-inner {
