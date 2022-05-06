@@ -2,8 +2,7 @@
 .contact__btn {
   // size
   display: inline-block;
-  max-width: rem(335);
-  width: 100%;
+  width: rem(335);
   height: rem(50);
   // font
   font-family: "Noto Sans JP", sans-serif;
@@ -21,6 +20,9 @@
   // space
   padding: 0;
   @include mq(md) {
+    // size
+    width: rem(360);
+    height: rem(60);
   }
   @include mq(xl) {
   }

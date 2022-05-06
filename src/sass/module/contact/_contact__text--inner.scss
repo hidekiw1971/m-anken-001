@@ -15,6 +15,8 @@
   @include mq(md) {
     // space
     padding-bottom: rem(61);
+    // ajustment
+    text-align: center;
   }
   @include mq(xl) {
   }
