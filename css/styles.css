@@ -478,6 +478,13 @@ select::-ms-expand {
   overflow: hidden;
   border: solid 1px #fff;
 }
+@media screen and (min-width: 768px) {
+  .blog__btn {
+    width: 22.5rem;
+    height: 3.75rem;
+    font-size: 1rem;
+  }
+}
 .blog__btn::before {
   content: "";
   position: absolute;
@@ -507,7 +514,15 @@ select::-ms-expand {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     padding: 0rem 5.625rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .blog__content {
+    padding-bottom: 2.9375rem;
   }
 }
 .blog__contents--inner {
@@ -521,6 +536,14 @@ select::-ms-expand {
   padding-top: 6.25rem;
   padding-bottom: 118px;
   padding-bottom: 7.375rem;
+}
+@media screen and (min-width: 768px) {
+  .blog__inner {
+    padding-top: 13.975rem;
+    padding-right: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 0rem;
+  }
 }
 .blog__title--inner {
   font-family: "Noto Sans JP", sans-serif;
@@ -568,8 +591,8 @@ select::-ms-expand {
     font-size: 6.875rem;
     letter-spacing: 0.125rem;
     line-height: 1.4363;
-    -webkit-transform: translate(120.5%, -44%);
-            transform: translate(120.5%, -44%);
+    -webkit-transform: translate(126%, -44%);
+            transform: translate(126%, -44%);
   }
 }
 .blog {
@@ -731,11 +754,16 @@ select::-ms-expand {
   content: "";
   display: block;
   width: 100%;
-  padding-top: 66.56716%;
+  padding-top: 66.5714286%;
 }
 .card__inner {
   padding-bottom: 24px;
   padding-bottom: 1.5rem;
+}
+@media screen and (min-width: 768px) {
+  .card__inner {
+    padding: 0rem;
+  }
 }
 .card__text--inner {
   font-family: "Noto Sans JP", sans-serif;
@@ -747,6 +775,11 @@ select::-ms-expand {
   line-height: 1.8571428;
   padding-bottom: 3px;
   padding-bottom: 0.1875rem;
+}
+@media screen and (min-width: 768px) {
+  .card__text {
+    padding-bottom: 0.3125rem;
+  }
 }
 .card__title--inner {
   font-family: "Noto Sans JP", sans-serif;
@@ -761,10 +794,15 @@ select::-ms-expand {
 }
 .card {
   display: block;
-  max-width: 335px;
-  max-width: 20.9375rem;
-  width: 100%;
+  width: 335px;
+  width: 20.9375rem;
   margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+  .card {
+    width: 21.875rem;
+    margin: 0rem;
+  }
 }
 .btn {
   display: inline-block;

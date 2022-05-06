@@ -21,6 +21,11 @@
   overflow: hidden;
   border: solid 1px #fff;
   @include mq(md) {
+    // size
+    width: rem(360);
+    height: rem(60);
+    // font
+    font-size: rem(16);
   }
   @include mq(xl) {
   }

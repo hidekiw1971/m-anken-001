@@ -3,6 +3,7 @@
   @include mq(md) {
     // size
     display: flex;
+    justify-content: space-between;
     // space
     padding: rem(0) rem(90);
   }

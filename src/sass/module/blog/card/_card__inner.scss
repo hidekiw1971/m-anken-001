@@ -3,6 +3,8 @@
   // space
   padding-bottom: rem(24);
   @include mq(md) {
+    // space
+    padding: rem(0);
   }
   @include mq(xl) {
   }

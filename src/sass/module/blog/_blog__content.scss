@@ -1,6 +1,8 @@
 @use "global" as *;
 .blog__content {
   @include mq(md) {
+    // space
+    padding-bottom: rem(47);
   }
   @include mq(xl) {
   }
