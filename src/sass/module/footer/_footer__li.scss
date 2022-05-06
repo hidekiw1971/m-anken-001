@@ -13,7 +13,9 @@
   @include mq(md) {
     // space
     padding-bottom: rem(0);
-    padding-right: rem(32);
+    // padding-right: rem(32);
+    // padding-right: rem(0);
+    margin-left: rem(33.76);
   }
   @include mq(xl) {
   }
