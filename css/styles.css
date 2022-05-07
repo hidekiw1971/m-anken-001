@@ -190,6 +190,7 @@ select::-ms-expand {
 }
 @media screen and (min-width: 768px) {
   .main {
+    padding-top: 2.0085rem;
     display: block;
     max-width: 80rem;
     width: 100%;
@@ -532,24 +533,28 @@ select::-ms-expand {
 }
 @media screen and (min-width: 768px) {
   .blog__content {
-    padding-bottom: 2.9375rem;
+    padding-bottom: 3.1375rem;
   }
 }
 .blog__contents--inner {
   text-align: center;
 }
+.blog__contents {
+  position: relative;
+  z-index: 10;
+}
 .blog__inner {
   width: 100%;
   height: 100%;
   background-color: #111;
-  padding-top: 100px;
-  padding-top: 6.25rem;
+  padding-top: 78px;
+  padding-top: 4.875rem;
   padding-bottom: 118px;
   padding-bottom: 7.375rem;
 }
 @media screen and (min-width: 768px) {
   .blog__inner {
-    padding-top: 13.975rem;
+    padding-top: 12.475rem;
     padding-right: 0rem;
     padding-bottom: 9.35rem;
     padding-left: 0rem;
@@ -1342,6 +1347,14 @@ select::-ms-expand {
     border: 1px solid #ffea2e;
   }
 }
+.footer__li--spOff {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .footer__li--pcOff {
+    display: none;
+  }
+}
 @media screen and (min-width: 768px) {
   .footer__nav--inner {
     display: inline-block;
@@ -1869,35 +1882,33 @@ select::-ms-expand {
 }
 .line__body::before {
   content: "";
-  background: linear-gradient(62deg, transparent, transparent 49.99%, #f9f871 calc(49.99% + 1px), #f9f871 calc(49.99% + 1px), transparent 50.09%);
+  background: linear-gradient(61.1deg, transparent, transparent 49.99%, #f9f871 calc(49.99% + 1px), #f9f871 calc(49.99% + 1px), transparent 50.09%);
   width: 200%;
   height: 200%;
   position: absolute;
-  top: 207px;
-  top: 12.9375rem;
+  top: 176px;
+  top: 11rem;
   left: 0px;
   left: 0rem;
 }
-
 .line__body::after {
   content: "";
-  background: linear-gradient(104deg, transparent, transparent 49.99%, #f9f871 calc(49.99% + 1px), #f9f871 calc(49.99% + 1px), transparent 50.09%);
+  background: linear-gradient(105deg, transparent, transparent 49.99%, #f9f871 calc(49.99% + 1px), #f9f871 calc(49.99% + 1px), transparent 50.09%);
   width: 300%;
   height: 300%;
   position: absolute;
   top: 0px;
   top: 0rem;
-  left: -263px;
-  left: -16.4375rem;
+  left: -251px;
+  left: -15.6875rem;
 }
-
 .line__inner {
   display: inline-block;
   min-width: 375px;
   min-width: 23.4375rem;
   width: 100%;
-  height: 2113.36px;
-  height: 132.085rem;
+  height: 2613.36px;
+  height: 163.335rem;
 }
 @media screen and (min-width: 768px) {
   .line__inner {
@@ -2177,6 +2188,8 @@ select::-ms-expand {
   background-color: #111;
   padding-top: 48px;
   padding-top: 3rem;
+  padding-bottom: 21px;
+  padding-bottom: 1.3125rem;
 }
 @media screen and (min-width: 768px) {
   .overview__inner {

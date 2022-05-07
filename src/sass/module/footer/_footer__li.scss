@@ -68,3 +68,21 @@
   @include mq(xl) {
   }
 }
+
+// sp list off
+.footer__li--spOff {
+  display: none;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+// pc list off
+.footer__li--pcOff {
+  @include mq(md) {
+    display: none;
+  }
+  @include mq(xl) {
+  }
+}

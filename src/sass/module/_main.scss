@@ -13,6 +13,8 @@
   padding-left: rem(0);
 
   @include mq(md) {
+    // space
+    padding-top: rem(32.136);
     // size
     display: block;
     max-width: rem(1280);

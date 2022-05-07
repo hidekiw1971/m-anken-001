@@ -23,7 +23,7 @@
   content: "";
   // decoration
   background: linear-gradient(
-    62deg,
+    61.1deg,
     transparent,
     transparent 49.99%,
     #f9f871 calc(49.99% + 1px),
@@ -36,8 +36,13 @@
   // position
   position: absolute;
   // z-index: 5;
-  top: rem(207);
+  top: rem(176);
   left: rem(0);
+
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
 }
 
 // 擬似要素(line__body:after)
@@ -46,7 +51,7 @@
   content: "";
   // decoration
   background: linear-gradient(
-    104deg,
+    105deg,
     transparent,
     transparent 49.99%,
     #f9f871 calc(49.99% + 1px),
@@ -60,5 +65,10 @@
   position: absolute;
   // z-index: 5;
   top: rem(0);
-  left: rem(-263);
+  left: rem(-251);
+
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
 }

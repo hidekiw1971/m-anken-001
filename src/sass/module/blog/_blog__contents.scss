@@ -1,8 +1,9 @@
 @use "global" as *;
-.blog__content {
+.blog__contents {
+  // ajustment
+  position: relative;
+  z-index: 10;
   @include mq(md) {
-    // space
-    padding-bottom: rem(50.2);
   }
   @include mq(xl) {
   }
