@@ -3,7 +3,8 @@
   @include mq(md) {
     // size
     // width: 100%;
-    width: rem(896);
+    max-width: rem(896);
+    width: 100%;
     height: rem(550);
     // decoration
     background-color: #333;

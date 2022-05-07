@@ -23,16 +23,16 @@
   content: "";
   // decoration
   background: linear-gradient(
-    65deg,
+    62deg,
     transparent,
     transparent 49.99%,
     #f9f871 calc(49.99% + 1px),
-    #f9f871 calc(50.19% + 1px),
-    transparent 50.19%
+    #f9f871 calc(49.99% + 1px),
+    transparent 50.09%
   );
   // size
-  width: 100%;
-  height: 100%;
+  width: 200%;
+  height: 200%;
   // position
   position: absolute;
   // z-index: 5;
@@ -50,15 +50,15 @@
     transparent,
     transparent 49.99%,
     #f9f871 calc(49.99% + 1px),
-    #f9f871 calc(50.19% + 1px),
-    transparent 50.19%
+    #f9f871 calc(49.99% + 1px),
+    transparent 50.09%
   );
   // size
-  width: 100%;
-  height: 100%;
+  width: 300%;
+  height: 300%;
   // position
   position: absolute;
   // z-index: 5;
-  top: rem(1100);
-  left: rem(0);
+  top: rem(0);
+  left: rem(-263);
 }
