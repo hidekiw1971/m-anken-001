@@ -1,9 +1,8 @@
 @use "global" as *;
-.article {
+.content__contents {
   // ajustment
   position: relative;
   z-index: 10;
-
   @include mq(md) {
   }
   @include mq(xl) {

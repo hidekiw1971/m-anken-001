@@ -179,8 +179,8 @@ select::-ms-expand {
   min-width: 23.4375rem;
   width: 100%;
   background-color: #111;
-  padding-top: 32px;
-  padding-top: 2rem;
+  padding-top: 24.136px;
+  padding-top: 1.5085rem;
   padding-right: 0px;
   padding-right: 0rem;
   padding-bottom: 0px;
@@ -347,8 +347,8 @@ select::-ms-expand {
   color: #fff;
   padding-top: 0px;
   padding-top: 0rem;
-  padding-right: 48px;
-  padding-right: 3rem;
+  padding-right: 32px;
+  padding-right: 2rem;
   padding-bottom: 0px;
   padding-bottom: 0rem;
   padding-left: 0px;
@@ -460,6 +460,10 @@ select::-ms-expand {
     overflow: hidden;
     padding-right: 3rem;
   }
+}
+.article {
+  position: relative;
+  z-index: 10;
 }
 .blog__btn {
   border: 0;
@@ -1144,6 +1148,10 @@ select::-ms-expand {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+.content__contents {
+  position: relative;
+  z-index: 10;
 }
 .content__inner {
   background-color: #111;
@@ -2142,6 +2150,8 @@ select::-ms-expand {
 }
 .overview__contents {
   text-align: center;
+  position: relative;
+  z-index: 10;
   padding-bottom: 21px;
   padding-bottom: 1.3125rem;
 }
@@ -2367,6 +2377,8 @@ select::-ms-expand {
 .works__contents {
   width: 100%;
   background-color: #111;
+  position: relative;
+  z-index: 10;
 }
 @media screen and (min-width: 768px) {
   .works__contents {
