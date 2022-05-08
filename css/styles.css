@@ -1888,12 +1888,13 @@ select::-ms-expand {
 }
 .line__body1::before {
   content: "";
-  background: linear-gradient(61.1deg, transparent, transparent 49.99%, #f9f871 calc(49.99% + 1px), #f9f871 calc(49.99% + 1px), transparent 50.09%);
-  width: 200%;
-  height: 200%;
+  background: linear-gradient(61deg, transparent, transparent 49.99%, #f9f871 calc(49.99% + 1px), #f9f871 calc(49.99% + 1px), transparent 50.09%);
+  width: 100%;
+  height: 100%;
   position: absolute;
-  top: 176px;
-  top: 11rem;
+  z-index: 10;
+  top: 979px;
+  top: 61.1875rem;
   left: 0px;
   left: 0rem;
 }
@@ -1923,12 +1924,13 @@ select::-ms-expand {
 }
 .line__body2::before {
   content: "";
-  background: linear-gradient(61.1deg, transparent, transparent 49.99%, #f9f871 calc(49.99% + 1px), #f9f871 calc(49.99% + 1px), transparent 50.09%);
-  width: 200%;
-  height: 200%;
+  background: linear-gradient(-75deg, transparent, transparent 49.99%, #f9f871 calc(49.99% + 1px), #f9f871 calc(49.99% + 1px), transparent 50.09%);
+  width: 100%;
+  height: 2113.36px;
+  height: 132.085rem;
   position: absolute;
-  top: 176px;
-  top: 11rem;
+  top: 549px;
+  top: 34.3125rem;
   left: 0px;
   left: 0rem;
 }
@@ -1937,7 +1939,7 @@ select::-ms-expand {
     width: 100%;
     height: 100%;
     position: absolute;
-    top: -63.46875rem;
+    top: -63.8rem;
     left: 0;
     background: linear-gradient(-45deg, transparent, transparent 49.99%, #f9f871 calc(49.99% + 1px), #f9f871 calc(49.99% + 1px), transparent 50.09%);
   }
@@ -1960,6 +1962,8 @@ select::-ms-expand {
   width: 100%;
   text-align: center;
   position: absolute;
+  top: 0px;
+  top: 0rem;
   z-index: 1;
   overflow: hidden;
 }
