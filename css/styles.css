@@ -1872,7 +1872,7 @@ select::-ms-expand {
   color: #333;
 }
 
-.line__body {
+.line__body1 {
   width: 100vw;
   height: 100vh;
   display: inline-block;
@@ -1880,7 +1880,13 @@ select::-ms-expand {
   top: 0px;
   top: 0rem;
 }
-.line__body::before {
+@media screen and (min-width: 768px) {
+  .line__body1 {
+    width: 100%;
+    height: 100%;
+  }
+}
+.line__body1::before {
   content: "";
   background: linear-gradient(61.1deg, transparent, transparent 49.99%, #f9f871 calc(49.99% + 1px), #f9f871 calc(49.99% + 1px), transparent 50.09%);
   width: 200%;
@@ -1891,16 +1897,50 @@ select::-ms-expand {
   left: 0px;
   left: 0rem;
 }
-.line__body::after {
-  content: "";
-  background: linear-gradient(105deg, transparent, transparent 49.99%, #f9f871 calc(49.99% + 1px), #f9f871 calc(49.99% + 1px), transparent 50.09%);
-  width: 300%;
-  height: 300%;
-  position: absolute;
+@media screen and (min-width: 768px) {
+  .line__body1::before {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 20.81875rem;
+    left: 0;
+    background: linear-gradient(44.9deg, transparent, transparent 49.99%, #f9f871 calc(49.99% + 1px), #f9f871 calc(49.99% + 1px), transparent 50.09%);
+  }
+}
+.line__body2 {
+  width: 100vw;
+  height: 100vh;
+  display: inline-block;
+  position: relative;
   top: 0px;
   top: 0rem;
-  left: -251px;
-  left: -15.6875rem;
+}
+@media screen and (min-width: 768px) {
+  .line__body2 {
+    width: 100%;
+    height: 100%;
+  }
+}
+.line__body2::before {
+  content: "";
+  background: linear-gradient(61.1deg, transparent, transparent 49.99%, #f9f871 calc(49.99% + 1px), #f9f871 calc(49.99% + 1px), transparent 50.09%);
+  width: 200%;
+  height: 200%;
+  position: absolute;
+  top: 176px;
+  top: 11rem;
+  left: 0px;
+  left: 0rem;
+}
+@media screen and (min-width: 768px) {
+  .line__body2::before {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -63.46875rem;
+    left: 0;
+    background: linear-gradient(-45deg, transparent, transparent 49.99%, #f9f871 calc(49.99% + 1px), #f9f871 calc(49.99% + 1px), transparent 50.09%);
+  }
 }
 .line__inner {
   display: inline-block;
@@ -1912,19 +1952,26 @@ select::-ms-expand {
 }
 @media screen and (min-width: 768px) {
   .line__inner {
-    display: inline-block;
-    max-width: 75.74875rem;
+    max-width: 80rem;
     width: 100%;
-    height: 159.25rem;
   }
 }
 .line {
+  width: 100%;
+  text-align: center;
   position: absolute;
-  top: 700px;
-  top: 43.75rem;
-  left: 0;
   z-index: 1;
   overflow: hidden;
+}
+@media screen and (min-width: 768px) {
+  .line {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    overflow: hidden;
+  }
 }
 .mv {
   display: inline-block;

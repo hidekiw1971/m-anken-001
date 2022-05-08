@@ -1,5 +1,5 @@
 @use "global" as *;
-.line__body {
+.line__body2 {
   // size
   width: 100vw;
   height: 100vh;
@@ -12,13 +12,16 @@
   top: rem(0);
 
   @include mq(md) {
+    // size
+    width: 100%;
+    height: 100%;
   }
   @include mq(xl) {
   }
 }
 
-// 擬似要素(line__body:before)
-.line__body::before {
+// 擬似要素(line__body2:before)
+.line__body2::before {
   // content
   content: "";
   // decoration
@@ -40,35 +43,23 @@
   left: rem(0);
 
   @include mq(md) {
+    // size
+    width: 100%;
+    height: 100%;
+    // ajustment
+    position: absolute;
+    top: rem(-1015.5);
+    left: 0;
+    background: linear-gradient(
+      -45deg,
+      transparent,
+      transparent 49.99%,
+      #f9f871 calc(49.99% + 1px),
+      #f9f871 calc(49.99% + 1px),
+      transparent 50.09%
+    );
   }
-  @include mq(xl) {
-  }
-}
 
-// 擬似要素(line__body:after)
-.line__body::after {
-  // content
-  content: "";
-  // decoration
-  background: linear-gradient(
-    105deg,
-    transparent,
-    transparent 49.99%,
-    #f9f871 calc(49.99% + 1px),
-    #f9f871 calc(49.99% + 1px),
-    transparent 50.09%
-  );
-  // size
-  width: 300%;
-  height: 300%;
-  // position
-  position: absolute;
-  // z-index: 5;
-  top: rem(0);
-  left: rem(-251);
-
-  @include mq(md) {
-  }
   @include mq(xl) {
   }
 }
