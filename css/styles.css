@@ -2459,6 +2459,7 @@ select::-ms-expand {
   background-color: #111;
   padding-bottom: 72px;
   padding-bottom: 4.5rem;
+  text-align: center;
 }
 @media screen and (min-width: 768px) {
   .works__inner {
