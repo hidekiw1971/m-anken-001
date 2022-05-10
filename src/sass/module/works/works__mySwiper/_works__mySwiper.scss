@@ -4,6 +4,9 @@
   height: rem(261);
   // decoration
   overflow: hidden;
+  // ajustment
+  margin: 0 auto;
+
   @include mq(md) {
     width: rem(557);
     height: rem(389);

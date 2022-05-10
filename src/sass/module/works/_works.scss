@@ -1,7 +1,7 @@
 @use "global" as *;
 .works {
   // size
-  max-width: rem(375);
+  min-width: rem(375);
   width: 100%;
   // ajustment
   margin: 0 auto;

@@ -1107,9 +1107,7 @@ select::-ms-expand {
 }
 .content__content {
   display: block;
-  max-width: 187.5px;
-  max-width: 11.71875rem;
-  width: 100%;
+  width: 50%;
   background-color: #f00;
   overflow: hidden;
   position: relative;
@@ -2547,8 +2545,8 @@ select::-ms-expand {
   }
 }
 .works {
-  max-width: 375px;
-  max-width: 23.4375rem;
+  min-width: 375px;
+  min-width: 23.4375rem;
   width: 100%;
   margin: 0 auto;
 }
@@ -2564,6 +2562,7 @@ select::-ms-expand {
   height: 261px;
   height: 16.3125rem;
   overflow: hidden;
+  margin: 0 auto;
 }
 @media screen and (min-width: 768px) {
   .swiper.works__mySwiper {
