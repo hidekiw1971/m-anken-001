@@ -2,7 +2,7 @@
 .line__body1 {
   // size
   width: 100vw;
-  height: 100vh;
+  height: rem(2113.36);
   // decoration
   // background-color: #ff4500;
   // expression
@@ -39,7 +39,7 @@
   // position
   position: absolute;
   z-index: 10;
-  top: rem(979);
+  top: rem(-716.9);
   left: rem(0);
 
   @include mq(md) {
@@ -48,10 +48,10 @@
     height: 100%;
     // ajustment
     position: absolute;
-    top: rem(333.1);
+    top: rem(-499.8);
     left: 0;
     background: linear-gradient(
-      44.9deg,
+      45deg,
       transparent,
       transparent 49.99%,
       #f9f871 calc(49.99% + 1px),

@@ -4,8 +4,12 @@
   display: inline-block;
   min-width: rem(375);
   width: 100%;
-  height: rem(2613.36);
-  // background-color: #333;
+  height: rem(2113.36);
+  // ajustment
+  position: relative;
+  top: rem(1085);
+  left: 0;
+
   @include mq(md) {
     // size
     max-width: rem(1280);
