@@ -1418,6 +1418,10 @@ select::-ms-expand {
   padding-left: 22px;
   padding-left: 1.375rem;
 }
+.header__inner.color-on {
+  opacity: 1;
+}
+
 .header__inner.open {
   opacity: 1;
 }
@@ -1706,7 +1710,7 @@ select::-ms-expand {
   min-width: 23.4375rem;
   width: 100%;
   height: 100%;
-  background-color: #333;
+  background-color: #111;
   color: #fff;
   text-align: left;
   font-family: "Roboto", sans-serif;
@@ -2386,6 +2390,11 @@ select::-ms-expand {
   padding-bottom: 21px;
   padding-bottom: 1.3125rem;
 }
+@media screen and (min-width: 768px) {
+  .works__content--inner {
+    text-align: left;
+  }
+}
 .works__content--text {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 16px;
@@ -2483,9 +2492,11 @@ select::-ms-expand {
 }
 @media screen and (min-width: 768px) {
   .works__swiper--box {
+    width: 34.8125rem;
+    height: 24.3125rem;
     position: absolute;
-    top: 50%;
-    left: 22%;
+    top: 47.9%;
+    left: 1.2%;
     -webkit-transform: translate(-54.8%, -46.9%);
             transform: translate(-54.8%, -46.9%);
   }

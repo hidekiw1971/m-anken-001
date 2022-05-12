@@ -70,4 +70,18 @@ jQuery(function ($) {
       type: "bullets",
     },
   });
+
+  // scroll位置取得
+  $(window).scroll(function () {
+    // scroll量を取得
+    // var scroll = $(window).scrollTop();
+    // console.log(scroll);
+    if ($(window).scrollTop() > 770) {
+      // $(".header").toggleClass("small");
+      $(".header__inner").addClass("color-on");
+    } else {
+      // .header<770
+      $(".header__inner").removeClass("color-on");
+    }
+  });
 });
