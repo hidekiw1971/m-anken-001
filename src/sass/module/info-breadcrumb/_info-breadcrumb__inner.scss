@@ -10,6 +10,8 @@
   color: #fff;
   // ajustment
   text-align: left;
+  overflow-x: auto;
+  white-space: nowrap;
   // font
   font-family: "Roboto", sans-serif;
   font-size: rem(16);
@@ -17,9 +19,10 @@
   font-weight: $normal;
   letter-spacing: rem(1);
   line-height: 1.1875;
+  // space
+  padding-top: rem(16);
+  padding-bottom: rem(85);
 
-  overflow-x: auto;
-  white-space: nowrap;
   @include mq(md) {
     // size
     display: inline-block;
@@ -33,7 +36,7 @@
 
 .info-breadcrumb__inner li {
   display: inline-block;
-  font-size: 75%;
+  font-size: rem(16);
   opacity: 0.7;
   @include mq(md) {
   }
