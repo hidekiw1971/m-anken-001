@@ -16,11 +16,11 @@
   color: #333;
   // ajustment
   position: absolute;
-  bottom: rem(31);
+  bottom: rem(40);
   right: rem(21);
   @include mq(md) {
     // ajustment
-    bottom: rem(21);
+    bottom: rem(30.6);
     right: rem(32);
   }
   @include mq(xl) {

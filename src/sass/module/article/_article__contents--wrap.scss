@@ -1,0 +1,42 @@
+@use "global" as *;
+.article__contents--wrap {
+  // size
+  display: inline-block;
+  min-width: rem(375);
+  width: 100%;
+  // decoration
+  background-color: #111;
+  // space
+  padding-top: rem(0);
+  padding-right: rem(19);
+  // padding-bottom: rem(101);
+  padding-bottom: rem(25);
+  padding-left: rem(20);
+  // ajustment
+  text-align: center;
+
+  @include mq(md) {
+    // size
+    display: flex;
+    max-width: rem(1280);
+    width: 100%;
+    // space
+    padding-top: rem(0);
+    padding-bottom: rem(0);
+    margin-bottom: rem(151);
+    // ajustment
+    justify-content: center;
+    align-items: center;
+  }
+  @include mq(xl) {
+  }
+}
+
+.article__contents--wrap.article__contents--wrap--mdfy {
+  // space
+  padding-bottom: rem(0);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
