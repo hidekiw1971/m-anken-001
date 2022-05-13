@@ -3,6 +3,9 @@
   // ajustment
   position: relative;
   z-index: 10;
+  // space
+  padding-bottom: rem(78);
+  background-color: #111;
 
   @include mq(md) {
   }

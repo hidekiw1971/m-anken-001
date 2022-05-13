@@ -20,3 +20,12 @@
   @include mq(xl) {
   }
 }
+
+.article__date--inner.article__date--inner-mdfy {
+  // space
+  padding-right: rem(29);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
