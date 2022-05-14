@@ -42,12 +42,13 @@
   }
 }
 
+// mask
 .slide-img::before {
   content: "test";
   // size
   min-width: rem(375);
   width: 100%;
-  height: rem(770);
+  height: 100vh;
   // decoration
   background-color: #111;
   opacity: 0.2;
