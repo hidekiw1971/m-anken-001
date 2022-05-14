@@ -376,6 +376,8 @@ select::-ms-expand {
 .article__contents--wrap.article__contents--wrap--mdfy {
   padding-bottom: 0px;
   padding-bottom: 0rem;
+  margin-bottom: 0px;
+  margin-bottom: 0rem;
 }
 .article__date--inner {
   font-family: "Noto Sans JP", sans-serif;

@@ -35,6 +35,7 @@
 .article__contents--wrap.article__contents--wrap--mdfy {
   // space
   padding-bottom: rem(0);
+  margin-bottom: rem(0);
   @include mq(md) {
   }
   @include mq(xl) {
