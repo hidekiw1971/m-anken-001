@@ -2,8 +2,7 @@
 .content__content {
   // size
   display: block;
-  max-width: rem(187.5);
-  width: 100%;
+  width: 50%;
   // decoration -> `.content__content::before`
   background-color: #f00;
   overflow: hidden;
@@ -25,6 +24,8 @@
   width: 100%;
   padding-top: 89.3617%;
   @include mq(md) {
+    // size
+    padding-top: 100%;
   }
   @include mq(xl) {
   }

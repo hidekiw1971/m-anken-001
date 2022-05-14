@@ -1,0 +1,15 @@
+@use "global" as *;
+// sp size  375px -> sp
+// tb size  768px -> tb
+// pc size 1440px -> xl
+
+.arrow__right::after {
+  transform: rotate(45deg); /* 矢印の角度の指定 */
+  position: absolute; /* 矢印の位置の指定 */
+  left: rem(13); /* 矢印の位置の指定 */
+  top: rem(18); /* 矢印の位置の指定 */
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

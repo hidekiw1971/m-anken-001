@@ -4,7 +4,10 @@
   padding-right: rem(20);
   padding-left: rem(20);
   padding-bottom: rem(21);
+
   @include mq(md) {
+    // ajustment
+    text-align: left;
   }
   @include mq(xl) {
   }

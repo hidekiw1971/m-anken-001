@@ -5,6 +5,10 @@
   // space
   // decoration
   background-color: #111;
+  // ajustment
+  position: relative;
+  z-index: 10;
+
   @include mq(md) {
     // decoration
     // space

@@ -9,6 +9,8 @@
   // decoration
   color: #fff;
   @include mq(md) {
+    // font
+    font-size: rem(15);
   }
   @include mq(xl) {
   }

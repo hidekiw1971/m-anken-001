@@ -3,11 +3,14 @@
   // size
   width: 100%;
   @include mq(md) {
+    // size
+    width: rem(557);
+    height: rem(389);
     // ajustment
     position: absolute; // -> works__contents--inner
-    top: 50%;
-    left: 22%;
-    transform: translate(-56%, -47%);
+    top: 47.9%;
+    left: 1.2%;
+    transform: translate(-54.8%, -46.9%);
   }
   @include mq(xl) {
   }

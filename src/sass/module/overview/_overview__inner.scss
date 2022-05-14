@@ -6,7 +6,11 @@
   background-color: #111;
   // space
   padding-top: rem(48);
+  // padding-bottom: rem(21);
+  padding-bottom: rem(0);
   @include mq(md) {
+    // space
+    padding-top: rem(47);
   }
   @include mq(xl) {
   }

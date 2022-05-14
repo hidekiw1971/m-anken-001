@@ -1,0 +1,31 @@
+@use "global" as *;
+.line {
+  // size
+  width: 100%;
+  // ajustment
+  text-align: center;
+  position: absolute;
+  top: rem(0);
+  // left: 0;
+  z-index: 1;
+  overflow: hidden;
+  @include mq(md) {
+    // size
+    width: 100%;
+    // ajustment
+    text-align: center;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    overflow: hidden;
+  }
+  @include mq(xl) {
+  }
+}
+
+.line::before {
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

@@ -7,12 +7,14 @@
   // decoration
   background-color: #111;
   // space
-  padding-top: rem(24);
+  padding-top: rem(24.136);
   padding-right: rem(0);
   padding-bottom: rem(0);
   padding-left: rem(0);
 
   @include mq(md) {
+    // space
+    padding-top: rem(32.136);
     // size
     display: block;
     max-width: rem(1280);

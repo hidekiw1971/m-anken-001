@@ -1,6 +1,8 @@
 @use "global" as *;
 .card__text {
   @include mq(md) {
+    // space
+    padding-bottom: rem(5);
   }
   @include mq(xl) {
   }

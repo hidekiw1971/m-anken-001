@@ -8,7 +8,9 @@
   background-color: #111;
   // space
   padding-top: rem(86);
-  padding-bottom: rem(48);
+  padding-bottom: rem(57);
+  // ajustment
+  position: relative;
 
   @include mq(md) {
     // size
@@ -18,9 +20,9 @@
     // ajustment
     margin: 0 auto;
     // space
-    padding-top: rem(32);
+    padding-top: rem(38.4);
     padding-right: rem(32);
-    padding-bottom: rem(26);
+    padding-bottom: rem(35.6);
     padding-left: rem(32);
   }
   @include mq(xl) {

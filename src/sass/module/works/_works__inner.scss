@@ -4,9 +4,16 @@
   width: 100%;
   // decoration
   background-color: #111;
+  // space
+  padding-bottom: rem(72);
+  // ajustment
+  text-align: center;
+
   @include mq(md) {
     // size
     width: 100%;
+    // space
+    padding-bottom: rem(159);
   }
   @include mq(xl) {
   }

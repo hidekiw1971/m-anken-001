@@ -8,12 +8,18 @@
   line-height: 1.4375;
   // decoration
   color: #fff;
+  text-align: left;
   // space
-  padding-bottom: rem(40);
+  padding-bottom: rem(48);
 
   @include mq(md) {
+    // font
+    font-size: rem(16);
+    line-height: 2.1875;
     // space
-    padding-bottom: rem(61);
+    padding-bottom: rem(48.2);
+    // ajustment
+    text-align: center;
   }
   @include mq(xl) {
   }

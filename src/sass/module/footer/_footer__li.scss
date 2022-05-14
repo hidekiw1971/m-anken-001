@@ -13,7 +13,9 @@
   @include mq(md) {
     // space
     padding-bottom: rem(0);
-    padding-right: rem(32);
+    // padding-right: rem(32);
+    // padding-right: rem(0);
+    margin-left: rem(33.76);
   }
   @include mq(xl) {
   }
@@ -62,6 +64,25 @@
   @include mq(md) {
     // decoration
     border: 1px solid #ffea2e;
+  }
+  @include mq(xl) {
+  }
+}
+
+// sp list off
+.footer__li--spOff {
+  display: none;
+  @include mq(md) {
+    display: block;
+  }
+  @include mq(xl) {
+  }
+}
+
+// pc list off
+.footer__li--pcOff {
+  @include mq(md) {
+    display: none;
   }
   @include mq(xl) {
   }

@@ -7,25 +7,26 @@
   // decoration
   background-color: #111;
   // space
-  padding-top: rem(0);
-  padding-right: rem(19);
-  padding-bottom: rem(0);
-  padding-left: rem(20);
-  // ajustment
-  text-align: center;
+  padding-bottom: rem(76);
 
   @include mq(md) {
     // size
-    display: flex;
     max-width: rem(1280);
     width: 100%;
     // space
-    padding-top: rem(0);
-    padding-right: rem(119);
     padding-bottom: rem(0);
-    padding-left: rem(119);
-    // ajustment
-    margin: 0 auto;
+  }
+  @include mq(xl) {
+  }
+}
+
+// info.html
+.article__inner.article__inner--mdfy {
+  // space
+  padding-bottom: rem(108);
+
+  @include mq(md) {
+    padding-bottom: rem(80);
   }
   @include mq(xl) {
   }

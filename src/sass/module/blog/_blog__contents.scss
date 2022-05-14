@@ -1,6 +1,8 @@
 @use "global" as *;
-.outside {
-  text-align: center;
+.blog__contents {
+  // ajustment
+  position: relative;
+  z-index: 10;
   @include mq(md) {
   }
   @include mq(xl) {
