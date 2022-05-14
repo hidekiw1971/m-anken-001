@@ -1176,8 +1176,7 @@ select::-ms-expand {
 }
 @media screen and (min-width: 768px) {
   .content__content {
-    max-width: 20rem;
-    width: 100%;
+    width: 25%;
   }
 }
 .content__content::before {
