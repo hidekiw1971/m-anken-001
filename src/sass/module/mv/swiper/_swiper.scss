@@ -32,6 +32,9 @@
   display: block;
   height: rem(770);
   object-fit: cover;
+  // ajustment
+  position: relative;
+
   @include mq(md) {
     height: rem(851);
   }
