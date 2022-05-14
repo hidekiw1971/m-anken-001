@@ -41,3 +41,24 @@
   @include mq(xl) {
   }
 }
+
+.slide-img::before {
+  content: "test";
+  // size
+  min-width: rem(375);
+  width: 100%;
+  height: rem(770);
+  // decoration
+  background-color: #111;
+  opacity: 0.2;
+  // ajustment
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
