@@ -21,10 +21,13 @@
   }
 }
 
+// info.hhmlの調整
 .article__date--inner.article__date--inner-mdfy {
   // space
   padding-right: rem(29);
+
   @include mq(md) {
+    padding-right: rem(48);
   }
   @include mq(xl) {
   }

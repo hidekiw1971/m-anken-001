@@ -11,3 +11,14 @@
   @include mq(xl) {
   }
 }
+
+// info.html
+.article__text.info-article__text {
+  @include mq(md) {
+    // space
+    padding-top: rem(4);
+    padding-right: rem(2);
+  }
+  @include mq(xl) {
+  }
+}

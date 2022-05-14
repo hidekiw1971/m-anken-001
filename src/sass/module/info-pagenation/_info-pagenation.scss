@@ -3,6 +3,7 @@
   display: none;
 
   @include mq(md) {
+    display: block;
     // ajustment
     text-align: center;
   }

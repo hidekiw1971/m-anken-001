@@ -37,6 +37,10 @@
   padding-bottom: rem(0);
   margin-bottom: rem(0);
   @include mq(md) {
+    display: flex;
+    align-items: flex-start;
+    // space
+    padding-bottom: rem(32);
   }
   @include mq(xl) {
   }

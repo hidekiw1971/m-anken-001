@@ -11,6 +11,8 @@
     display: inline-block;
     max-width: rem(1280);
     width: 100%;
+    // space
+    padding-bottom: rem(143);
   }
   @include mq(xl) {
   }

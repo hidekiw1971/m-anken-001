@@ -10,9 +10,18 @@
 }
 
 .pagenation li a {
+  // font
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: rem(16);
+  font-style: normal;
+  font-weight: $regular;
+  letter-spacing: rem(2);
+  line-height: 1.4375;
+
+  // decoration
   color: #fff;
   float: left;
-  padding: 2px 4px;
+
   text-decoration: none;
   border: solid 1px #fff;
 }
@@ -32,3 +41,41 @@
 //   background-color: #fff;
 //   color: #111;
 // }
+
+.pagenation__prev {
+  @include mq(md) {
+    // space
+    padding: 0 rem(11);
+    margin-right: rem(19);
+  }
+  @include mq(xl) {
+  }
+}
+.pagenation__next {
+  @include mq(md) {
+    // space
+    padding: 0 rem(11);
+    margin-left: rem(19);
+  }
+  @include mq(xl) {
+  }
+}
+
+.pagenation__no {
+  @include mq(md) {
+    // space
+    padding: 0 rem(6);
+    margin-right: rem(9);
+  }
+  @include mq(xl) {
+  }
+}
+
+.pagenation__no.pagenation__no--spaceOff {
+  @include mq(md) {
+    // space
+    margin-right: rem(0);
+  }
+  @include mq(xl) {
+  }
+}
