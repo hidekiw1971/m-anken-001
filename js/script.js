@@ -77,7 +77,7 @@ jQuery(function ($) {
     // scroll量を取得
     // var scroll = $(window).scrollTop();
     // console.log(scroll);
-    if ($(window).scrollTop() > 770) {
+    if ($(window).scrollTop() > 800) {
       // $(".header").toggleClass("small");
       $(".header__inner").addClass("color-on");
     } else {

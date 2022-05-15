@@ -1474,8 +1474,7 @@ select::-ms-expand {
 .header__inner {
   width: 100%;
   height: 100%;
-  background-color: #111;
-  opacity: 0.5;
+  background-color: rgba(17, 17, 17, .5);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1496,12 +1495,9 @@ select::-ms-expand {
   padding-left: 1.375rem;
 }
 .header__inner.color-on {
-  opacity: 1;
+  background-color: rgb(17, 17, 17);
 }
 
-.header__inner.open {
-  opacity: 1;
-}
 .header__li {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 16px;
@@ -1727,7 +1723,6 @@ select::-ms-expand {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #111;
 }
 .drawer-menu__inner span {
   display: block;
