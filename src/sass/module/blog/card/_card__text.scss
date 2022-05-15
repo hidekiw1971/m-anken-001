@@ -2,7 +2,8 @@
 .card__text {
   @include mq(md) {
     // space
-    padding-bottom: rem(5);
+    // padding-bottom: rem(5);
+    padding-bottom: rem(6.6);
   }
   @include mq(xl) {
   }
