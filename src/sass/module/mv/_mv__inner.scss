@@ -1,5 +1,7 @@
 @use "global" as *;
 .mv__inner {
+  // ajustmente
+  position: relative;
   @include mq(md) {
   }
   @include mq(xl) {

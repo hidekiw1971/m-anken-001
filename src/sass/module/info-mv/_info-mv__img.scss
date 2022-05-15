@@ -15,6 +15,7 @@
   position: absolute;
   top: 0;
   left: 0;
+
   @include mq(md) {
     // decoration
     background-image: url(/images/info/under-mv@2x.png);
@@ -41,6 +42,28 @@
     // font
     font-size: rem(35);
     letter-spacing: rem(2);
+  }
+  @include mq(xl) {
+  }
+}
+
+// mask
+.info-mv__img::after {
+  content: "";
+  // size
+  display: block;
+  width: 100%;
+  height: 100%;
+  // decoration
+  background-color: #111;
+  opacity: 0.2;
+  // ajustment
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+
+  @include mq(md) {
   }
   @include mq(xl) {
   }

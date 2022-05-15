@@ -12,11 +12,21 @@
   position: absolute;
   top: 0;
   left: 0;
+  // decoration
+  transform: scale(1);
+  transition: 0.1s;
 
   @include mq(md) {
   }
   @include mq(xl) {
   }
+}
+
+// hover
+.card__img--inner.card__img1:hover {
+  // decoration
+  transform: scale(1.1);
+  transition: 0.1s;
 }
 
 .card__img--inner.card__img2 {

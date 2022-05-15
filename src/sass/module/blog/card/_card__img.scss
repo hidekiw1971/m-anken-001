@@ -5,6 +5,8 @@
   width: 100%;
   // ajustment -> `.card__img--inner`
   position: relative;
+  // decoration
+  overflow: hidden;
 
   @include mq(md) {
   }
