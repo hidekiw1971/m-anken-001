@@ -23,10 +23,12 @@
 // info.html
 .article__inner.article__inner--mdfy {
   // space
-  padding-bottom: rem(108);
+  // padding-bottom: rem(108);
+  padding-bottom: rem(62);
 
   @include mq(md) {
-    padding-bottom: rem(80);
+    // padding-bottom: rem(80);
+    padding-bottom: rem(78.4);
   }
   @include mq(xl) {
   }

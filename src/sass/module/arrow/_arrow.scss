@@ -20,7 +20,8 @@
   right: rem(21);
   @include mq(md) {
     // ajustment
-    bottom: rem(30.6);
+    // bottom: rem(30.6);
+    bottom: rem(32.2);
     right: rem(32);
   }
   @include mq(xl) {
