@@ -1,7 +1,7 @@
 @use "global" as *;
 .drawer-menu__inner {
   // size
-  width: rem(50);
+  width: rem(68);
   height: rem(50);
   // ajustment
   display: flex;
@@ -19,7 +19,7 @@
 .drawer-menu__inner span {
   // size
   display: block;
-  width: 24px;
+  width: 25px;
   height: 2px;
   // decoration
   background-color: #fff;
@@ -35,7 +35,7 @@
   content: "";
   // size
   display: block;
-  width: 24px;
+  width: 25px;
   height: 2px;
   // decoration
   background-color: #fff;
@@ -52,7 +52,7 @@
   content: "";
   // size
   display: block;
-  width: 24px;
+  width: 25px;
   height: 2px;
   // decoration
   background-color: #fff;
