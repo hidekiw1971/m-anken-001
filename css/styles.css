@@ -505,8 +505,8 @@ select::-ms-expand {
   padding-top: 0rem;
   padding-right: 0px;
   padding-right: 0rem;
-  padding-bottom: 28px;
-  padding-bottom: 1.75rem;
+  padding-bottom: 30px;
+  padding-bottom: 1.875rem;
   padding-left: 0px;
   padding-left: 0rem;
 }
@@ -2053,8 +2053,8 @@ select::-ms-expand {
   height: 100%;
   position: absolute;
   z-index: 10;
-  top: -716.9px;
-  top: -44.80625rem;
+  top: -706.9px;
+  top: -44.18125rem;
   left: 0px;
   left: 0rem;
 }
@@ -2063,7 +2063,7 @@ select::-ms-expand {
     width: 100%;
     height: 100%;
     position: absolute;
-    top: -31.2375rem;
+    top: -30.3375rem;
     left: 0;
     background: linear-gradient(45deg, transparent, transparent 50.3%, #f9f871 50.5%, #f9f871 50.5%, transparent 50.5%);
   }
@@ -2091,8 +2091,8 @@ select::-ms-expand {
   height: 2113.36px;
   height: 132.085rem;
   position: absolute;
-  top: 549px;
-  top: 34.3125rem;
+  top: 564px;
+  top: 35.25rem;
   left: 0px;
   left: 0rem;
 }
@@ -2101,7 +2101,7 @@ select::-ms-expand {
     width: 100%;
     height: 100%;
     position: absolute;
-    top: 0rem;
+    top: 0.9rem;
     left: 0;
     background: linear-gradient(-45deg, transparent, transparent 50.3%, #f9f871 50.5%, #f9f871 50.5%, transparent 50.5%);
   }
@@ -2848,5 +2848,12 @@ select::-ms-expand {
 .mySwiper__pagination {
   display: block;
   width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .swiper-pagination.mySwiper__pagination {
+    -webkit-transform: translate(-19px, 6px);
+            transform: translate(-19px, 6px);
+  }
 }
 /*# sourceMappingURL=styles.css.map */

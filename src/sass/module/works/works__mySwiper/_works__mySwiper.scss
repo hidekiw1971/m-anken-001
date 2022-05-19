@@ -51,3 +51,11 @@
   display: block;
   width: 100%;
 }
+
+.swiper-pagination.mySwiper__pagination {
+  @include mq(md) {
+    transform: translate(-19px, 6px);
+  }
+  @include mq(xl) {
+  }
+}
