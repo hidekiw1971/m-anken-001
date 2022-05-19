@@ -58,7 +58,7 @@
   // position
   position: absolute;
   // z-index: 5;
-  top: rem(549);
+  top: rem(564);
   left: rem(0);
 
   @include mq(md) {
@@ -67,7 +67,8 @@
     height: 100%;
     // ajustment
     position: absolute;
-    top: rem(0);
+    // top: rem(0);
+    top: rem(14.4);
     left: 0;
 
     // decoration

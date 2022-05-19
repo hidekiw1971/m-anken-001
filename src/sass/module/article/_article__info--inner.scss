@@ -24,6 +24,8 @@
   padding-bottom: rem(0);
   // padding-left: rem(20);
   @include mq(md) {
+    // font
+    font-weight: $normal500;
   }
   @include mq(xl) {
   }
