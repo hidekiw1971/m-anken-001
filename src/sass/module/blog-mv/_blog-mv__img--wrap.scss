@@ -1,0 +1,34 @@
+@use "global" as *;
+.blog-mv__img--wrap {
+  // size
+  display: inline-block;
+  min-width: rem(375);
+  width: 100%;
+  height: rem(425);
+  // decoration
+  // background-color: #ff7f50;
+  // ajustment
+  position: relative;
+  vertical-align: bottom;
+
+  @include mq(md) {
+    display: inline-block;
+    max-width: rem(1280);
+    width: 100%;
+    height: rem(370);
+  }
+  @include mq(xl) {
+  }
+}
+
+.blog-mv__img--wrap::before {
+  // content: "";
+  // // size
+  // display: block;
+  // width: 100%;
+
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

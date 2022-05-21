@@ -1,0 +1,14 @@
+@use "global" as *;
+.blog-breadcrumb {
+  // size
+  display: block;
+  width: 100%;
+  // ajustment
+  text-align: center;
+  font-size: 0;
+
+  @include mq(md) {
+  }
+  @include mq(md) {
+  }
+}
