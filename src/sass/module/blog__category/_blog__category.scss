@@ -1,5 +1,8 @@
 @use "global" as *;
 .blog__category {
+  // ajustment
+  text-align: center;
+
   @include mq(md) {
   }
   @include mq(xl) {

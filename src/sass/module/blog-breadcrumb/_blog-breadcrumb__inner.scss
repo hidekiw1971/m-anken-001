@@ -43,7 +43,7 @@
 .blog-breadcrumb__inner li {
   display: inline-block;
   font-size: rem(16);
-  opacity: 0.7;
+  // opacity: 0.7;
   @include mq(md) {
   }
   @include mq(xl) {

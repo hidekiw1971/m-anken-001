@@ -3,9 +3,13 @@
   @include mq(md) {
     // size
     display: flex;
+    flex-wrap: wrap;
+    width: rem(1100);
     justify-content: space-between;
     // space
-    padding: rem(0) rem(90);
+    // padding: rem(0) rem(90);
+    // ajustment
+    margin: 0 auto;
   }
   @include mq(xl) {
   }
