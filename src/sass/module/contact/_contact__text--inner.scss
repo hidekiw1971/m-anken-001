@@ -40,6 +40,8 @@
 // blog調整用
 .contact__text--inner.blog-contact__text--inner {
   @include mq(md) {
+    // size
+    display: inline-block;
     // space
     padding-top: rem(6);
     padding-bottom: rem(50);
@@ -53,7 +55,7 @@
   @include mq(md) {
     display: flex;
     position: relative;
-    transform: translate(381px, 0px);
+    transform: translate(8px, 0px);
   }
   @include mq(xl) {
   }

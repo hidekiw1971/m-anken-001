@@ -162,5 +162,155 @@ jQuery(function ($) {
   );
   // .card3
 
+  // card4
+  $(".card__attention4").hover(
+    function () {
+      $(".card__title--attention4").css("color", "#fff");
+      $(".card__text--attention4").css("color", "#fff");
+      $(".card__category--attention4").css("color", "#fff");
+      $(".card__date--attention4").css("color", "#fff");
+      $(".card__img4").css("transform", "scale(1.1)");
+      $(".card__img4").css("transition", "0.1s");
+      $(".card__contents--attention4").css("background-color", "#333");
+    },
+    function () {
+      // マウスアウト時の処理
+      // $(".card__attention4").remove();
+      $(".card__title--attention4").css("color", "#333");
+      $(".card__text--attention4").css("color", "#333");
+      $(".card__category--attention4").css("color", "#333");
+      $(".card__date--attention4").css("color", "#333");
+      $(".card__img4").css("transform", "scale(1.0)");
+      $(".card__img4").css("transition", "0.1s");
+      $(".card__contents--attention4").css("background-color", "#fff");
+    }
+  );
+  // .card4
+
+  // card5
+  $(".card__attention5").hover(
+    function () {
+      $(".card__title--attention5").css("color", "#fff");
+      $(".card__text--attention5").css("color", "#fff");
+      $(".card__category--attention5").css("color", "#fff");
+      $(".card__date--attention5").css("color", "#fff");
+      $(".card__img5").css("transform", "scale(1.1)");
+      $(".card__img5").css("transition", "0.1s");
+      $(".card__contents--attention5").css("background-color", "#333");
+    },
+    function () {
+      // マウスアウト時の処理
+      // $(".card__attention5").remove();
+      $(".card__title--attention5").css("color", "#333");
+      $(".card__text--attention5").css("color", "#333");
+      $(".card__category--attention5").css("color", "#333");
+      $(".card__date--attention5").css("color", "#333");
+      $(".card__img5").css("transform", "scale(1.0)");
+      $(".card__img5").css("transition", "0.1s");
+      $(".card__contents--attention5").css("background-color", "#fff");
+    }
+  );
+  // .card5
+
+  // card6
+  $(".card__attention6").hover(
+    function () {
+      $(".card__title--attention6").css("color", "#fff");
+      $(".card__text--attention6").css("color", "#fff");
+      $(".card__category--attention6").css("color", "#fff");
+      $(".card__date--attention6").css("color", "#fff");
+      $(".card__img6").css("transform", "scale(1.1)");
+      $(".card__img6").css("transition", "0.1s");
+      $(".card__contents--attention6").css("background-color", "#333");
+    },
+    function () {
+      // マウスアウト時の処理
+      // $(".card__attention6").remove();
+      $(".card__title--attention6").css("color", "#333");
+      $(".card__text--attention6").css("color", "#333");
+      $(".card__category--attention6").css("color", "#333");
+      $(".card__date--attention6").css("color", "#333");
+      $(".card__img6").css("transform", "scale(1.0)");
+      $(".card__img6").css("transition", "0.1s");
+      $(".card__contents--attention6").css("background-color", "#fff");
+    }
+  );
+  // .card6
+
+  // card7
+  $(".card__attention7").hover(
+    function () {
+      $(".card__title--attention7").css("color", "#fff");
+      $(".card__text--attention7").css("color", "#fff");
+      $(".card__category--attention7").css("color", "#fff");
+      $(".card__date--attention7").css("color", "#fff");
+      $(".card__img7").css("transform", "scale(1.1)");
+      $(".card__img7").css("transition", "0.1s");
+      $(".card__contents--attention7").css("background-color", "#333");
+    },
+    function () {
+      // マウスアウト時の処理
+      // $(".card__attention7").remove();
+      $(".card__title--attention7").css("color", "#333");
+      $(".card__text--attention7").css("color", "#333");
+      $(".card__category--attention7").css("color", "#333");
+      $(".card__date--attention7").css("color", "#333");
+      $(".card__img7").css("transform", "scale(1.0)");
+      $(".card__img7").css("transition", "0.1s");
+      $(".card__contents--attention7").css("background-color", "#fff");
+    }
+  );
+  // .card7
+
+  // card8
+  $(".card__attention8").hover(
+    function () {
+      $(".card__title--attention8").css("color", "#fff");
+      $(".card__text--attention8").css("color", "#fff");
+      $(".card__category--attention8").css("color", "#fff");
+      $(".card__date--attention8").css("color", "#fff");
+      $(".card__img8").css("transform", "scale(1.1)");
+      $(".card__img8").css("transition", "0.1s");
+      $(".card__contents--attention8").css("background-color", "#333");
+    },
+    function () {
+      // マウスアウト時の処理
+      // $(".card__attention8").remove();
+      $(".card__title--attention8").css("color", "#333");
+      $(".card__text--attention8").css("color", "#333");
+      $(".card__category--attention8").css("color", "#333");
+      $(".card__date--attention8").css("color", "#333");
+      $(".card__img8").css("transform", "scale(1.0)");
+      $(".card__img8").css("transition", "0.1s");
+      $(".card__contents--attention8").css("background-color", "#fff");
+    }
+  );
+  // .card8
+
+  // card9
+  $(".card__attention9").hover(
+    function () {
+      $(".card__title--attention9").css("color", "#fff");
+      $(".card__text--attention9").css("color", "#fff");
+      $(".card__category--attention9").css("color", "#fff");
+      $(".card__date--attention9").css("color", "#fff");
+      $(".card__img9").css("transform", "scale(1.1)");
+      $(".card__img9").css("transition", "0.1s");
+      $(".card__contents--attention9").css("background-color", "#333");
+    },
+    function () {
+      // マウスアウト時の処理
+      // $(".card__attention9").remove();
+      $(".card__title--attention9").css("color", "#333");
+      $(".card__text--attention9").css("color", "#333");
+      $(".card__category--attention9").css("color", "#333");
+      $(".card__date--attention9").css("color", "#333");
+      $(".card__img9").css("transform", "scale(1.0)");
+      $(".card__img9").css("transition", "0.1s");
+      $(".card__contents--attention9").css("background-color", "#fff");
+    }
+  );
+  // .card9
+
   // end
 });
