@@ -9,3 +9,13 @@
   @include mq(xl) {
   }
 }
+
+// blog調整用
+.footer__contents.info-footer__contents {
+  @include mq(md) {
+    // space
+    padding-bottom: rem(85.2);
+  }
+  @include mq(xl) {
+  }
+}

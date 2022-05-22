@@ -1,0 +1,92 @@
+@use "global" as *;
+.blog__pagination--ul {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+
+.blog__pagination--ul li {
+  display: inline-block;
+}
+
+.blog__pagination--ul li a {
+  // font
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: rem(16);
+  font-style: normal;
+  font-weight: $regular;
+  letter-spacing: rem(2);
+  line-height: 1.4375;
+
+  // decoration
+  color: #fff;
+  float: left;
+
+  text-decoration: none;
+  border: solid 1px #fff;
+}
+
+.blog__pagination--ul li a.active {
+  background-color: #333;
+  color: white;
+}
+
+.blog__pagination--ul li a:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #333;
+}
+
+// .pagenation li a:hover:not(.active) {
+//   background-color: #fff;
+//   color: #111;
+// }
+
+.blog__pagination--prev {
+  // space
+  padding: 0 rem(11);
+  margin-right: rem(19);
+  @include mq(md) {
+    // space
+    padding: 0 rem(12);
+    margin-right: rem(17);
+  }
+  @include mq(xl) {
+  }
+}
+
+.blog__pagination--next {
+  // space
+  padding: 0 rem(11);
+  margin-left: rem(19);
+  @include mq(md) {
+    // space
+    padding: 0 rem(12);
+    margin-left: rem(17);
+  }
+  @include mq(xl) {
+  }
+}
+
+.blog__pagination--no {
+  // space
+  padding: 0 rem(6);
+  margin-right: rem(9);
+
+  @include mq(md) {
+    // space
+    padding: 0 rem(6.4);
+    margin-right: rem(8.7);
+  }
+  @include mq(xl) {
+  }
+}
+
+.blog__pagination--no.blog__pagination--no-spoff {
+  // space
+  margin-right: rem(0);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

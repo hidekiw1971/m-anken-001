@@ -60,3 +60,13 @@
   @include mq(xl) {
   }
 }
+
+// info調整用
+.contact__title--inner.info-contact__title--inner {
+  // ajustment
+  top: rem(4);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

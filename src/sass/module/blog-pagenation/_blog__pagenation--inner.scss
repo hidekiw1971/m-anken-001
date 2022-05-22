@@ -1,23 +1,21 @@
 @use "global" as *;
-.header {
+.blog__pagination--inner {
   // size
   display: inline-block;
   min-width: rem(375);
   width: 100%;
-  height: rem(50);
-  // ajustment
-  position: fixed;
-  inset: 0;
-  // margin: auto;
-  z-index: 99;
+  // decoration
+  background-color: #111;
+  // space
+  padding-bottom: rem(114);
 
   @include mq(md) {
     // size
-    display: block;
+    display: inline-block;
     max-width: rem(1280);
     width: 100%;
-    // ajustment
-    margin: 0 auto;
+    // space
+    padding-bottom: rem(143);
   }
   @include mq(xl) {
   }

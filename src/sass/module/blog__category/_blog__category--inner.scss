@@ -7,10 +7,18 @@
   // space
   padding-top: rem(0);
   padding-right: rem(0);
-  padding-bottom: rem(0);
+  padding-bottom: rem(40);
   padding-left: rem(22);
 
   @include mq(md) {
+    // size
+    max-width: rem(1280);
+    width: 100%;
+    // space
+    padding-top: rem(0);
+    padding-right: rem(0);
+    padding-bottom: rem(24);
+    padding-left: rem(90);
   }
   @include mq(xl) {
   }

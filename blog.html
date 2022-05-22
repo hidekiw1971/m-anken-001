@@ -55,11 +55,11 @@
         <div class="header__nav">
           <nav class="header__nav--inner">
             <ul class="header__ul">
-              <li class="header__li"><a class="header__li--link-a" href="">お知らせ</a></li>
+              <li class="header__li"><a class="header__li--link-a" href="info.html">お知らせ</a></li>
               <li class="header__li"><a class="header__li--link-a" href="">事業内容</a></li>
               <li class="header__li"><a class="header__li--link-a" href="">制作実績</a></li>
               <li class="header__li"><a class="header__li--link-a" href="">企業概要</a></li>
-              <li class="header__li"><a class="header__li--link-a" href="">ブログ</a></li>
+              <li class="header__li"><a class="header__li--link-a" href="blog.html">ブログ</a></li>
               <li class="header__li header__li--link"><span>お問い合わせ</span></li>
             </ul>
           </nav>
@@ -91,7 +91,7 @@
       <div class="blog-breadcrumb">
         <ul class="blog-breadcrumb__inner">
           <li><a href="#">トップ</a></li>
-          <li>ブログ記事一覧</li>
+          <li><a href="blog.html">ブログ記事一覧</a></li>
         </ul>
       </div>
       <!-- /blog-breadcrumbs -->
@@ -114,7 +114,7 @@
         <div class="blog__contents--inner">
 
           <div class="blog__content">
-            <div class="blog__content--inner blog__content--inner-mdfy">
+            <div class="blog__content--inner info-blog__content--inner">
               <!-- card1 s -->
               <div class="card">
                 <div class="card__inner">
@@ -423,49 +423,78 @@
               <!-- card9 e -->
             </div>
           </div>
-
-
         </div>
-        <!-- /main -->
+      </div>
 
-        <!-- section footer -->
-        <footer class="footer">
-          <div class="footer__inner">
-            <div class="footer__contents">
-              <div class="footer__contents--inner">
-                <div class="footer__title">
-                  <div class="footer__title--inner">
-                    <div class="footer__title--img">
-                      <img src="images/CodeUps@3x.png" alt="codeups">
-                    </div>
-                  </div>
-                </div>
-                <nav class="footer__nav">
-                  <div class="footer__nav--inner">
-                    <ul class="footer__ul">
-                      <li class="footer__li footer__li--pcOff"><a href="#">トップ</a></li>
-                      <li class="footer__li"><a href="#">お知らせ</a></li>
-                      <li class="footer__li"><a href="#">事業内容</a></li>
-                      <li class="footer__li footer__li--spOff"><a href="#">制作実績</a></li>
-                      <li class="footer__li"><a href="#">企業概要</a></li>
-                      <li class="footer__li footer__li--pcOff"><a href="#">ブログ</a></li>
-                      <li class="footer__li footer__li--spOff"><a href="#">自社メディア</a></li>
-                      <li class="footer__li"><a href="#">お問い合わせ</a></li>
-                    </ul>
-                  </div>
-                </nav>
-              </div>
+      <!-- blog-pagenation -->
+      <div class="blog__pagination">
+        <div class="blog__pagination--inner">
+          <ul class="blog__pagination--ul">
+            <li><a class="blog__pagination--prev" href="#">PREV</a></li>
+            <li><a class="blog__pagination--no" href="#">1</a></li>
+            <li><a class="blog__pagination--no" href="#">2</a></li>
+            <li><a class="blog__pagination--no" href="#">3</a></li>
+            <li><a class="blog__pagination--no blog__pagination--no-spoff" href="#">4</a></li>
+            <li><a class="blog__pagination--next" href="#">NEXT</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- /blog-pagenation -->
+
+      <!-- section contact -->
+      <div class="contact">
+        <div class="contact__inner">
+          <div class="contact__title">
+            <div class="contact__title--inner">お問い合わせ</div>
+          </div>
+          <div class="contact__text">
+            <div class="contact__text--inner blog-contact__text--inner">
+              <p>テキストが入ります。テキストが入ります。テキストが入ります。</p>
             </div>
           </div>
-          <small class="footer__footer">© 2021 CodeUps Inc.</small>
-          <!-- arrow box -->
-          <a href="#" class="arrow arrow__right"></a>
-          <!-- /arrow box -->
-        </footer>
-        <!-- /section footer -->
-
+          <button class="contact__btn contact__btn--mdfy"><span>お問い合わせへ</span></button>
+        </div>
       </div>
+      <!-- /section contact -->
     </div>
+    <!-- /main -->
+
+    <!-- section footer -->
+    <footer class="footer">
+      <div class="footer__inner info-footer__inner">
+        <div class="footer__contents info-footer__contents">
+          <div class="footer__contents--inner">
+            <div class="footer__title">
+              <div class="footer__title--inner">
+                <div class="footer__title--img">
+                  <img src="images/CodeUps@3x.png" alt="codeups">
+                </div>
+              </div>
+            </div>
+            <nav class="footer__nav">
+              <div class="footer__nav--inner">
+                <ul class="footer__ul">
+                  <li class="footer__li footer__li--pcOff"><a href="index.html">トップ</a></li>
+                  <li class="footer__li"><a href="info.html">お知らせ</a></li>
+                  <li class="footer__li"><a href="#">事業内容</a></li>
+                  <li class="footer__li footer__li--spOff"><a href="#">制作実績</a></li>
+                  <li class="footer__li"><a href="#">企業概要</a></li>
+                  <li class="footer__li footer__li--pcOff"><a href="blog.html">ブログ</a></li>
+                  <li class="footer__li footer__li--spOff"><a href="#">自社メディア</a></li>
+                  <li class="footer__li"><a href="#">お問い合わせ</a></li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <small class="footer__footer">© 2021 CodeUps Inc.</small>
+        <!-- arrow box -->
+        <a href="#" class="arrow arrow__right info-arrow arrow__right blog__arrow"></a>
+        <!-- /arrow box -->
+      </div>
+    </footer>
+    <!-- /section footer -->
+
   </div>
 </body>
 

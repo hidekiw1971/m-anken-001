@@ -28,3 +28,24 @@
   @include mq(xl) {
   }
 }
+
+// info調整用
+.footer__inner.info-footer__inner {
+  // space
+  padding-top: rem(51);
+
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+// blog調整用
+.footer__inner.info-footer__inner {
+  @include mq(md) {
+    // space
+    padding-top: rem(36.8);
+  }
+  @include mq(xl) {
+  }
+}

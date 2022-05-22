@@ -33,7 +33,7 @@
     height: 100%;
     // space
     padding-top: rem(16);
-    padding-bottom: rem(70);
+    padding-bottom: rem(114.8);
     padding-left: rem(90);
   }
   @include mq(xl) {
@@ -54,7 +54,7 @@
   content: ">";
   display: inline-block;
   margin-top: rem(0);
-  margin-right: rem(0);
+  margin-right: rem(-2);
   margin-bottom: rem(0);
   margin-left: rem(4.8);
   @include mq(md) {

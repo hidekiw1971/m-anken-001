@@ -2,7 +2,8 @@
 .blog__content {
   @include mq(md) {
     // space
-    padding-bottom: rem(46.4);
+    // padding-bottom: rem(46.4);
+    padding-bottom: rem(0);
   }
   @include mq(xl) {
   }

@@ -10,3 +10,12 @@
   @include mq(xl) {
   }
 }
+
+// blog
+.info-pagenation.blog-pagenation {
+  display: block;
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

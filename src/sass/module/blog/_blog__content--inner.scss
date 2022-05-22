@@ -14,3 +14,16 @@
   @include mq(xl) {
   }
 }
+
+// blogページ設定
+.blog__content--inner.info-blog__content--inner {
+  // space
+  padding-bottom: rem(57);
+
+  @include mq(md) {
+    // space
+    padding-bottom: rem(54);
+  }
+  @include mq(xl) {
+  }
+}

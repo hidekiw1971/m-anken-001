@@ -4,6 +4,7 @@
   text-align: center;
 
   @include mq(md) {
+    // display: none;
   }
   @include mq(xl) {
   }
