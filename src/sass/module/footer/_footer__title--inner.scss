@@ -34,3 +34,19 @@
   @include mq(xl) {
   }
 }
+
+// blog調整用
+.footer__title--inner.blog-footer__title--inner {
+  // siza
+  display: block;
+  max-width: rem(70);
+  width: 100%;
+  max-height: rem(39);
+  height: 100%;
+  margin: 0 auto;
+
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

@@ -11,11 +11,24 @@
 }
 
 // blog調整用
-.footer__contents.info-footer__contents {
+.footer__contents.blog-footer__contents {
   @include mq(md) {
     // space
-    padding-bottom: rem(85.2);
+    padding-bottom: rem(76);
   }
+  @include mq(xl) {
+  }
+}
+
+// info調整用
+.footer__contents.info-footer__contents {
+  // space
+  padding-bottom: rem(28);
+  @include mq(md) {
+    // space
+    padding-bottom: rem(86);
+  }
+
   @include mq(xl) {
   }
 }

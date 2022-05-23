@@ -50,3 +50,13 @@
   @include mq(xl) {
   }
 }
+
+// info調整用
+.arrow.arrow__right.info-arrow {
+  @include mq(md) {
+    // ajustment
+    bottom: 37px;
+  }
+  @include mq(xl) {
+  }
+}

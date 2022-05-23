@@ -35,16 +35,22 @@
   padding-top: rem(51);
 
   @include mq(md) {
+    // space
+    padding-top: rem(30);
   }
   @include mq(xl) {
   }
 }
 
 // blog調整用
-.footer__inner.info-footer__inner {
+// .footer__inner.info-footer__inner {
+.footer__inner.blog-footer__inner {
+  // space
+  padding-top: rem(53);
+
   @include mq(md) {
     // space
-    padding-top: rem(36.8);
+    padding-top: rem(38);
   }
   @include mq(xl) {
   }

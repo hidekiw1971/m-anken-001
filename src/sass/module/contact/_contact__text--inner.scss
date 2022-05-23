@@ -28,10 +28,12 @@
 
 // info調整用
 .contact__text--inner.info-contact__text--inner {
-  // ajustmente
-  padding-bottom: rem(69);
+  // space
+  padding-bottom: rem(46);
 
   @include mq(md) {
+    // space
+    padding-bottom: rem(49);
   }
   @include mq(xl) {
   }
@@ -39,6 +41,9 @@
 
 // blog調整用
 .contact__text--inner.blog-contact__text--inner {
+  // space
+  padding-bottom: rem(46);
+
   @include mq(md) {
     // size
     display: inline-block;
