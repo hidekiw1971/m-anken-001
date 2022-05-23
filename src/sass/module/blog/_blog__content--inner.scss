@@ -3,9 +3,26 @@
   @include mq(md) {
     // size
     display: flex;
+    flex-wrap: wrap;
+    width: rem(1100);
     justify-content: space-between;
     // space
-    padding: rem(0) rem(90);
+    // padding: rem(0) rem(90);
+    // ajustment
+    margin: 0 auto;
+  }
+  @include mq(xl) {
+  }
+}
+
+// blogページ設定
+.blog__content--inner.info-blog__content--inner {
+  // space
+  padding-bottom: rem(57);
+
+  @include mq(md) {
+    // space
+    padding-bottom: rem(54);
   }
   @include mq(xl) {
   }

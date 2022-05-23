@@ -30,3 +30,28 @@
   @include mq(xl) {
   }
 }
+
+// info調整用
+.contact__inner.info-contact__inner {
+  // space
+  padding-top: rem(59);
+
+  @include mq(md) {
+    // space
+    padding-top: rem(143.2);
+  }
+  @include mq(xl) {
+  }
+}
+
+// blog調整用
+.contact__inner.blog-contact__inner {
+  // space
+  padding-top: rem(59);
+  @include mq(md) {
+    // space
+    padding-top: rem(149);
+  }
+  @include mq(xl) {
+  }
+}

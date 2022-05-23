@@ -1,0 +1,70 @@
+@use "global" as *;
+.blog-mv__img {
+  // size
+  width: 100%;
+  height: 100%;
+  // decoration
+  background-image: url(/images/blog/blog-mv-sp@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  // ajustment
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  @include mq(md) {
+    // decoration
+    background-image: url(/images/blog/blog-mv@2x.png);
+  }
+  @include mq(xl) {
+  }
+}
+
+.blog-mv__img::before {
+  content: "ブログ";
+  // size
+  display: block;
+  width: 100%;
+  // font
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: rem(30);
+  font-style: normal;
+  font-weight: $bold;
+  letter-spacing: rem(2);
+  line-height: 1;
+  // decoration
+  color: #fff;
+  @include mq(md) {
+    // font
+    font-size: rem(35);
+    letter-spacing: rem(2);
+  }
+  @include mq(xl) {
+  }
+}
+
+// mask
+.blog-mv__img::after {
+  content: "";
+  // size
+  display: block;
+  width: 100%;
+  height: 100%;
+  // decoration
+  background-color: #111;
+  opacity: 0.2;
+  // ajustment
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

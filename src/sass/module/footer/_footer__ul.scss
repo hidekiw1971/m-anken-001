@@ -7,3 +7,13 @@
   @include mq(xl) {
   }
 }
+
+// info調整用
+.footer__ul.info-footer__ul {
+  // space
+  padding-top: rem(8);
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

@@ -21,14 +21,12 @@
 }
 
 // info.html
-.article__inner.article__inner--mdfy {
+.article__inner.info-article__inner {
   // space
-  // padding-bottom: rem(108);
-  padding-bottom: rem(62);
+  padding-bottom: rem(64);
 
   @include mq(md) {
-    // padding-bottom: rem(80);
-    padding-bottom: rem(78.4);
+    padding-bottom: rem(81.6);
   }
   @include mq(xl) {
   }

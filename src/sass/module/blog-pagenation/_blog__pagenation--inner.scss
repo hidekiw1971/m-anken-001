@@ -1,0 +1,22 @@
+@use "global" as *;
+.blog__pagination--inner {
+  // size
+  display: inline-block;
+  min-width: rem(375);
+  width: 100%;
+  // decoration
+  background-color: #111;
+  // space
+  padding-bottom: rem(114);
+
+  @include mq(md) {
+    // size
+    display: inline-block;
+    max-width: rem(1280);
+    width: 100%;
+    // space
+    padding-bottom: rem(143);
+  }
+  @include mq(xl) {
+  }
+}

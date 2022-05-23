@@ -1,0 +1,62 @@
+@use "global" as *;
+.blog__category--li {
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+.blog__category--li {
+  // font
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: rem(16);
+  font-style: normal;
+  font-weight: $normal;
+  letter-spacing: rem(2);
+  line-height: 1.448125;
+  // decoration
+  color: #fff;
+  // space
+  margin-right: rem(23.5);
+
+  @include mq(md) {
+    // space
+    margin-right: rem(40.5);
+  }
+  @include mq(xl) {
+  }
+}
+
+.blog__category--li:last-child {
+  // space
+  margin-right: rem(0);
+
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+.blog__category--li.blog__category--li-all {
+  // size
+  // space
+  padding-top: rem(3.5);
+  padding-right: rem(7.46);
+  padding-bottom: rem(3.5);
+  padding-left: rem(7.46);
+  margin-bottom: rem(16);
+  // decoration
+  color: #333;
+  background-color: #fff;
+
+  @include mq(md) {
+    // space
+    padding-top: rem(3.5);
+    padding-right: rem(9);
+    padding-bottom: rem(3.5);
+    padding-left: rem(9);
+    margin-bottom: rem(16);
+  }
+  @include mq(xl) {
+  }
+}

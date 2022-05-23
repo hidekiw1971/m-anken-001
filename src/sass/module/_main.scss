@@ -37,3 +37,14 @@
   @include mq(xl) {
   }
 }
+
+// blog.html
+.main.main-blog {
+  // space
+  padding-top: rem(0);
+
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

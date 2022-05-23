@@ -4,7 +4,8 @@
   padding-bottom: rem(24);
   @include mq(md) {
     // space
-    padding: rem(0);
+    // padding: rem(0);
+    padding-bottom: rem(48);
   }
   @include mq(xl) {
   }

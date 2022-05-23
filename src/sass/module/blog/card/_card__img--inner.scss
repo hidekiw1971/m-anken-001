@@ -68,3 +68,124 @@
   @include mq(xl) {
   }
 }
+
+// blogページに反映分
+.card__img--inner.card__img4 {
+  // size
+  display: block;
+  width: 100%;
+  height: 100%;
+  // decoration
+  background-image: url(/images/blog/blog-card4@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  // ajustment -> `.card__img`
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+.card__img--inner.card__img5 {
+  // size
+  display: block;
+  width: 100%;
+  height: 100%;
+  // decoration
+  background-image: url(/images/blog/blog-card5@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  // ajustment -> `.card__img`
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+.card__img--inner.card__img6 {
+  // size
+  display: block;
+  width: 100%;
+  height: 100%;
+  // decoration
+  background-image: url(/images/blog/blog-card6@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  // ajustment -> `.card__img`
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+.card__img--inner.card__img7 {
+  // size
+  display: block;
+  width: 100%;
+  height: 100%;
+  // decoration
+  background-image: url(/images/blog/blog-card7@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  // ajustment -> `.card__img`
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+.card__img--inner.card__img8 {
+  // size
+  display: block;
+  width: 100%;
+  height: 100%;
+  // decoration
+  background-image: url(/images/blog/blog-card8@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  // ajustment -> `.card__img`
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}
+
+.card__img--inner.card__img9 {
+  // size
+  display: block;
+  width: 100%;
+  height: 100%;
+  // decoration
+  background-image: url(/images/blog/blog-card9@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  // ajustment -> `.card__img`
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

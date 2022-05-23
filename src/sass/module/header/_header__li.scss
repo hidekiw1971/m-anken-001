@@ -126,11 +126,24 @@
 }
 
 .header__li.open {
-  // font
+  // size
+  display: inline-block;
+  width: 100%;
+  // ajustment
+  text-align: center;
   // space
-  margin-bottom: rem(32);
+  margin-bottom: rem(20);
 }
 
 .header__li.header__li--link {
   margin-bottom: rem(0);
+}
+
+// pc時、表示off設定
+.header__li--link-a.header__li--link-a-off {
+  @include mq(md) {
+    display: none;
+  }
+  @include mq(xl) {
+  }
 }

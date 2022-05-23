@@ -5,3 +5,14 @@
   @include mq(xl) {
   }
 }
+
+// blog調整用
+.footer__title.blog-footer__title {
+  // space
+  padding-bottom: rem(8);
+
+  @include mq(md) {
+  }
+  @include mq(xl) {
+  }
+}

@@ -25,3 +25,43 @@
   @include mq(xl) {
   }
 }
+
+// info調整用
+.contact__text--inner.info-contact__text--inner {
+  // space
+  padding-bottom: rem(46);
+
+  @include mq(md) {
+    // space
+    padding-bottom: rem(49);
+  }
+  @include mq(xl) {
+  }
+}
+
+// blog調整用
+.contact__text--inner.blog-contact__text--inner {
+  // space
+  padding-bottom: rem(46);
+
+  @include mq(md) {
+    // size
+    display: inline-block;
+    // space
+    padding-top: rem(6);
+    padding-bottom: rem(50);
+  }
+  @include mq(xl) {
+  }
+}
+
+// blog text位置調整　→　表示崩れの原因になるのでコメント化
+.contact__text--inner.blog-contact__text--inner p {
+  @include mq(md) {
+    display: flex;
+    position: relative;
+    transform: translate(8px, 0px);
+  }
+  @include mq(xl) {
+  }
+}

@@ -60,3 +60,62 @@
   @include mq(xl) {
   }
 }
+
+// info調整用
+.contact__title--inner.info-contact__title--inner {
+  // ajustment
+  top: rem(4);
+  // font
+  font-size: rem(25);
+
+  @include mq(md) {
+    // font
+    font-size: rem(30);
+    // space
+    padding-bottom: rem(28);
+  }
+  @include mq(xl) {
+  }
+}
+
+.contact__title--inner.info-contact__title--inner::before {
+  // ajustmetn
+  top: rem(7);
+
+  @include mq(md) {
+    // ajustmetn
+    top: rem(0);
+  }
+  @include mq(xl) {
+  }
+}
+
+// blog調整用
+.contact__title--inner.blog-contact__title--inner {
+  // ajustment
+  top: rem(4);
+  // font
+  font-size: rem(25);
+
+  @include mq(md) {
+    // ajustment
+    top: rem(0);
+    // font
+    font-size: rem(30);
+    // space
+    padding-bottom: rem(16);
+  }
+  @include mq(md) {
+  }
+}
+
+.contact__title--inner.blog-contact__title--inner::before {
+  // ajustment
+  top: rem(7);
+  @include mq(md) {
+    // ajustment
+    top: rem(0);
+  }
+  @include mq(xl) {
+  }
+}
